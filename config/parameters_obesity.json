@@ -1,0 +1,8 @@
+{
+    "parameters": [
+        "Parameter name: Complications in obese patients. Description: The number of patients with obesity who experienced complications during Percutaneous Dilatational Tracheostomy (PDT)",
+        "Parameter name: Number of obese patients. Description: The total number of patients with obesity who underwent Percutaneous Dilatational Tracheostomy (PDT) in this study",
+        "Parameter name: Complications in non-obese patients. Description: The number of patients without obesity who experienced complication during Percutaneous Dilatational Tracheostomy (PDT)",
+        "Parameter name: Number of non-obese patients. Description: The total number of patients without obesity who underwent Percutaneous Dilatational Tracheostomy (PDT) in this study"
+    ]
+}
