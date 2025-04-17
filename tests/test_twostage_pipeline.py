@@ -1,4 +1,4 @@
-from double_layer_core.double_layer_extractor import ParameterExtractor
+from two_stage_pipeline import ParameterExtractor
 from utils.utils import load_config
 
 prompts = load_config("config/prompts.json")

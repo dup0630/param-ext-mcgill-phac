@@ -10,6 +10,9 @@ venv.bak/
 # Chroma Vector Database
 chroma/
 
+# Test papers
+test_papers/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
