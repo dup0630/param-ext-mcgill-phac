@@ -3,25 +3,27 @@ import csv
 import pandas as pd
 from openai import AzureOpenAI
 import re
+from dotenv import load_dotenv
+from utils.utils import load_config
 
 # ------------------------ Configuration ------------------------ #
 # Read API key and endpoint from files.
-with open('/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/key.txt', 'r') as file:
-    api_key = file.read().strip()
-with open('/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/endpoint.txt', 'r') as file:
-    endpoint = file.read().strip()
-
+load_dotenv()
+key = os.getenv("OPENAI_KEY")
+endpoint = os.getenv("OPENAI_ENDPOINT")
+version = os.getenv("OPENAI_VERSION")
+if not key or not endpoint:
+    raise ValueError("OPENAI_KEY and/or OPENAI_ENDPOINT not set in environment variables.")
 client = AzureOpenAI(
-    azure_endpoint=endpoint,
-    api_key=api_key,
-    api_version="2024-02-01"
+  azure_endpoint = endpoint, 
+  api_key=key,  
+  api_version=version
 )
 
 # Directory that contains all paper folders
-papers_directory = "/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/winter-2025-phac/allPapers"
-
+papers_directory = "cfr_validation/paper_texts"
 # Path for the output Excel file
-excel_path = "/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/winter-2025-phac/ALLstdFormatCFR.xlsx"
+excel_path = "cfr_validation/ALLstdFormatCFR.xlsx"
 
 # ------------------------ Extraction Prompts ------------------------ #
 extraction_prompt = """

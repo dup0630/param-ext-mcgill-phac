@@ -1,28 +1,28 @@
 import os
 import csv
-import json
 import pandas as pd
 from openai import AzureOpenAI
-from typing import List
 import re
+from dotenv import load_dotenv
+from utils.utils import load_config
 
 # ------------------------ Configuration ------------------------ #
-# replace your paths for key and endpoints
-with open('/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/key.txt', 'r') as file:
-    api_key = file.read().strip()
-with open('/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/endpoint.txt', 'r') as file:
-    endpoint = file.read().strip()
+load_dotenv()
+key = os.getenv("OPENAI_KEY")
+endpoint = os.getenv("OPENAI_ENDPOINT")
+version = os.getenv("OPENAI_VERSION")
+if not key or not endpoint:
+    raise ValueError("OPENAI_KEY and/or OPENAI_ENDPOINT not set in environment variables.")
 client = AzureOpenAI(
-    azure_endpoint=endpoint,
-    api_key=api_key,
-    api_version="2024-02-01"
+  azure_endpoint = endpoint, 
+  api_key=key,  
+  api_version=version
 )
 
-# replace your paths for paper text&csv
-papers_directory = "/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/winter-2025-phac/allPapers"
-
-# replace your path for the output excel file
-excel_path = "/home/cdsi/users/yinggui.li@MAIL.MCGILL.CA/winter-2025-phac/sampledstdFormatCFR.xlsx"
+# Directory that contains all paper folders
+papers_directory = "cfr_validation/paper_texts"
+# Path for the output Excel file
+excel_path = "cfr_validation/sampledstdFormatCFR.xlsx"
 
 # ------------------------ Extraction Prompts ------------------------ #
 # Prompt for raw extraction (hospitalized CFR) – UPDATED
@@ -85,12 +85,8 @@ Tables and Document Text:
 """
 
 # ------------------------ Selected Papers and their true parameters ------------------------ #
-data = {
-    'PDF': [75, 88, 98, 104, 213, 242, 511, 554, 584, 585, 1544, 1846, 3083, 3561, 3562, 7471, 2146, 1797, 640, 409, 347, 558, 2209, 1154, 6300, 1754, 275, 664, 1910, 531, 1061, 365, 1641, 469, 1734, 1053, 1287, 908, 2294, 1280, 1159, 395, 817, 1792, 1789],
-    'True CFR': [None, None, None, None, None, None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.05, 0.23, 0.25, 0.31, 3.14, 3.23, 3.85, 4.88, 5.72, 6.25, 7.93, 8.64, 9.23, 10, 10.84, 11.48, 12.8, 12.9, 14.2, 14.76, 15.95, 17.86, 18.31, 20.1, 20.53, 26.02, 30.44, 33.03]
-}
-
-papers_df = pd.DataFrame(data)
+true_parameters_path = "cfr_validation/true_parameters.csv"
+papers_df = pd.read_csv(true_parameters_path)
 papers_df['PDF'] = papers_df['PDF'].astype(str)
 
 # ------------------------ Helper Functions ------------------------ #
@@ -169,7 +165,7 @@ standard_output_data = []  # For the second extraction (standard format extracti
 
 for idx, row in papers_df.iterrows():
     paper_id = row["PDF"]
-    true_cfr = row["True CFR"]
+    true_cfr = row["TrueCFR"]
 
     paper_folder = os.path.join(papers_directory, paper_id)
     text_file_path = os.path.join(paper_folder, f"{paper_id}.txt")
@@ -207,7 +203,7 @@ Document Text:
 
     raw_output_data.append({
         "Papers": paper_id,
-        "True CFR": true_cfr,
+        "TrueCFR": true_cfr,
         "Extracted Response": raw_response,
         "overall CFR": overall_hosp_cfr
     })
@@ -243,7 +239,7 @@ Document Text:
 
 # ------------------------ Save Output to Excel ------------------------ #
 
-df_raw = pd.DataFrame(raw_output_data, columns=["Papers", "True CFR", "Extracted Response", "overall CFR"])
+df_raw = pd.DataFrame(raw_output_data, columns=["Papers", "TrueCFR", "Extracted Response", "overall CFR"])
 
 # Define the expected columns
 standard_columns = [
