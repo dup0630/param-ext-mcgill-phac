@@ -177,12 +177,13 @@ python two_stage_pipeline.py --folder ./pdfs --output results.csv --explanations
 
 **Input:**
 
-|Argument | Description | Default|
-|----------|----------|----------|
-|--folder | (Required) Path to folder containing PDF files | N/A
-|--output | Path to output CSV file or directory | output.csv|
-|--explanations | Store GPT explanations for each document | False|
-|--verbose | Print status messages during processing | False|
+| Argument       | Description                                         | Default     |
+|----------------|-----------------------------------------------------|-------------|
+| --folder       | (Required) Path to folder containing PDF files      | N/A         |
+| --output       | Path to output CSV file or directory                | output.csv  |
+| --explanations | Store GPT explanations for each document            | False       |
+| --verbose      | Print status messages during processing             | False       |
+
 
 - The prompts and parameters to be used must be placed in the corresponding `.json` file in `config/`.
 
@@ -214,13 +215,14 @@ python rag_pipeline.py --folder ./pdfs --output rag_results.csv --rag_n 7 --expl
 
 **Input:**
 
-|Argument | Description | Default|
-|----------|----------|----------|
-|--folder | (Required) Path to folder containing PDF files | N/A
-|--output | Path to output CSV file or directory | output.csv|
-|--rag_n | Number of most relevant sections to retrieve per parameter | 5|
-|--explanations | Store GPT explanations for each document | False|
-|--verbose | Print status messages during processing | False|
+| Argument       | Description                                         | Default     |
+|----------------|-----------------------------------------------------|-------------|
+| --folder       | (Required) Path to folder containing PDF files      | N/A         |
+| --output       | Path to output CSV file or directory                | output.csv  |
+| --rag_n        | Number of most relevant sections to retrieve        | 5           |
+| --explanations | Store GPT explanations for each document            | False       |
+| --verbose      | Print status messages during processing             | False       |
+
 
 - The prompts and parameters to be used must be placed in the corresponding `.json` file in `config/`.
 
