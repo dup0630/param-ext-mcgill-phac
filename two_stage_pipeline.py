@@ -89,7 +89,7 @@ class ParameterExtractor:
             text_file.write(self.refined_response)
 
 
-def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv") -> None:
+def main(folder_path: str, output_path: str = "output", get_explanations: bool = True, verbose: bool = False, ) -> None:
     """
     Processes all PDF files in a folder, extracts specified parameters using GPT, 
     and saves the results to a CSV file.
@@ -101,6 +101,8 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
 
     data: list[dict] = []
     titles: list[str] = []
+    if get_explanations:
+        explanations: list[str] = []
     n: int = 0
 
     for filename in os.listdir(folder_path):
@@ -113,6 +115,9 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
             data.append(found_parameters)
             # Label with file name
             titles.append(os.path.basename(file_path))
+            # Add explanations if requested
+            if get_explanations:
+                explanations.append(extractor.first_response)
             n+=1
             if verbose:
                 print(f"File {n} processed.")
@@ -121,9 +126,16 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
     if verbose:
         print(f"{n} files processed.")
 
+    if get_explanations:
+        explanations_path = os.path.join(output_path, "explanations.txt")
+        with open(explanations_path, "w") as file:
+            for exp in explanations:
+                file.write(f"{exp}\n\n")
+
     df =  pd.DataFrame(data)
     df["Paper"] = titles
-    df.to_csv(output_path, index=False)
+    output_file = os.path.join(output_path, "twostage_results.csv")
+    df.to_csv(output_file, index=False)
     
     return(df)
 
@@ -132,7 +144,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the two-stage extraction pipeline on a folder of PDFs.")
     parser.add_argument("--folder", required=True, help="Path to the folder containing PDF files.")
     parser.add_argument("--output", default="output.csv", help="Path to save the output CSV file.")
+    parser.add_argument("--explanations", action="store_true", help="Enable storage of explanations.")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output.")
     args = parser.parse_args()
-
-    main(folder_path=args.folder, output_path=args.output, verbose=args.verbose)
+    
+    main(folder_path=args.folder, output_path=args.output, get_explanations=args.explanations, verbose=args.verbose)

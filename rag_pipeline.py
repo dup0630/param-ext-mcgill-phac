@@ -29,7 +29,7 @@ import json
 import pandas as pd
 import tiktoken
 
-def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv", rag_n: int = 5) -> None:
+def main(folder_path: str, output_path: str = "output.csv", rag_n: int = 5, get_explanations: bool = False, verbose: bool = False) -> None:
     """
     Processes all PDF files in a folder, creates vector database for RAG, extracts specified parameters using GPT, 
     and saves the results to a CSV file.
@@ -63,6 +63,8 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
     # GPT queries with RAG
     data: list[dict] = []
     titles: list[str] = []
+    if get_explanations:
+        explanations: list[str] = []
     n = 0
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
@@ -76,6 +78,9 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
                             {"role": "user", "content": f"These are the requested parameters:\n{parameters}\n\n"},
                             {"role": "user", "content": f"These are the relevant extracts: \n{rag_context}"}]
             first_response = ask_GPT(prompt=first_prompt)
+            # Add explanations if requested
+            if get_explanations:
+                explanations.append(first_response)
 
             # Second pass for formatting
             second_prompt = [{"role": "system", "content": refine_prompt},
@@ -96,6 +101,12 @@ def main(folder_path: str, verbose: bool = False, output_path: str = "output.csv
     if verbose:
         print(f"{n} files processed.")
 
+    if get_explanations:
+        explanations_path = os.path.join(output_path, "explanations.txt")
+        with open(explanations_path, "w") as file:
+            for exp in explanations:
+                file.write(f"{exp}\n\n")
+
     df =  pd.DataFrame(data)
     df["Paper"] = titles
     df.to_csv(output_path, index=False)
@@ -106,7 +117,8 @@ if __name__=="__main__":
     parser.add_argument("--folder", required=True, help="Path to the folder containing PDF files.")
     parser.add_argument("--output", default="output.csv", help="Path to save the output CSV file.")
     parser.add_argument("--rag_n", type=int, default=5, help="Number of sections to retrieve per parameter.")
+    parser.add_argument("--explanations", action="store_true", help="Enable storage of explanations.")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output.")
     args = parser.parse_args()
 
-    main(folder_path=args.folder, output_path=args.output, rag_n=args.rag_n, verbose=args.verbose)
+    main(folder_path=args.folder, output_path=args.output, rag_n=args.rag_n, get_explanations=args.explanations , verbose=args.verbose)

@@ -1,0 +1,8 @@
+1. **Case Fatality Rate (CFR)**: The CFR from this study is reported as **20%**, derived from the information that 80 out of 398 cases with known outcomes died from measles. This corresponds to the definition of CFR as it reflects the proportion of diagnosed cases that resulted in death.
+
+2. **Length of Stay in Hospital**: **Not found**. The article does not provide specific information regarding the average number of days that patients diagnosed with measles stayed in the hospital. Only admission data and outcomes are mentioned without any details on length of stay.
+
+1. **Case Fatality Rate (CFR)**: Found value: 3.5 per 1,000. This value represents the average case fatality for measles in Ghana between 1970 and 1972, calculated from the total number of deaths (834) divided by the total number of cases (235,930) and then multiplied by 1,000. It is mentioned in Table 3 where the case fatality for each year and the average is summarized.
+
+2. **Length of Stay in Hospital**: Not found. The article discusses hospital admissions and mentions analysis of cases, but it does not provide specific data regarding the average length of stay for patients diagnosed with measles.
+

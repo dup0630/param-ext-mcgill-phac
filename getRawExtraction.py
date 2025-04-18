@@ -14,9 +14,9 @@ version = os.getenv("OPENAI_VERSION")
 if not key or not endpoint:
     raise ValueError("OPENAI_KEY and/or OPENAI_ENDPOINT not set in environment variables.")
 client = AzureOpenAI(
-  azure_endpoint = endpoint, 
-  api_key=key,  
-  api_version=version
+    azure_endpoint = endpoint, 
+    api_key=key,  
+    api_version=version
 )
 
 # Directory that contains all paper folders

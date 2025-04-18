@@ -5,19 +5,99 @@ This repository contains a framework for extracting epidemiological parameters f
 This work was developed in collaboration with the **Public Health Agency of Canada** to support automated knowledge extraction for public health surveillance and evidence synthesis.
 
 ## Contents
-1. [Project Structur and Main Tools](#project-structure-and-main-tools)
+1. [Project Overview](#project-overview)
 2. [Setup Instructions](#setup-instructions)
-3. [Usage and Examples](#usage)
-4. [Description of Components](#description-of-components)
+3. [Description of Components](#description-of-components)
+    - [Miscellaneous Tools](#miscellaneous-tools)
+    - [Automated Prompt Refining](#automated-prompt-refinement)
+    - [Two-stage and RAG Extraction](#two-stage-and-rag-extraction)
+    - [Formatting and Evaluation](#formatting-and-evaluation)
+4. [Usage and Examples](#usage)
 5. [Notes and Other Details]()
 
-## Project Structure and Main Tools
+## Project Overview
 
-This project is organized into modular components. These modules are combined into **two** main pipelines, described in the **Usage** section below.
+This repository contains a framework for extracting epidemiological parameters from medical research publications using large language models, with and without retrieval-augmented generation.
+
+We have implemented various approaches to the generation of prompts, processing of papers, and interaction with ChatGPT.
+
+This project contains three main high-level tools, described below
+
+### Automated Prompt Generation and Refinement
+
+We include a module to iteratively improve prompts and evaluate their effectiveness using LLM feedback and performance metrics. The algorithm starts by sending base prompt to ChatGPT and asking it for improvement suggestions. The result is then tested for extraction and its performance is evaluated. This process can be iterated multiple times, and performance metrics can be tracked across iterations.
+
+### Two-stage and RAG Approach for Extraction
+
+For the parameter extraction task, the **two-stage** procedure consists in sending two queries to ChatGPT. The first query contains the article text and asks the LLM to find the parameters, providing an explanation on what were the values found, where were they found, and why it thinks the values are appropriate. A second query is then sent, containing the first response, where the LLm is asked to provide a structured output with the extracted values.
+
+We have also implemented a pipeline that combines tha latter approach with **RAG**. Instead of sending the full article text in the first query, relevant sections are retrieved from a vector database via a semantic search algorithm. The semantic search is performed using the given parameter definitions, and an argument is passed for the maximum number of sections retrieved.
+
+### Output Formatting and Computation of Performance Metrics
+
+The repository also contains scripts for consistent formatting of the LLM's output and computation of performance metrics based on a confusion matrix. We adopt the following performance classification:
+
+- **"True Positive"**: The parameter appears in the paper, and the extracted value is correct.
+- **"True Negative"**: The parameter does not appear in the paper, and the LLM correctly returnes `Not found`.
+- **"False Positive"**: The parameter does not appear in the paper, but the LLM extracted a value.
+- **"False Negative"**: The parameter appears in the paper , but the LLM returned `Not found`; **OR** the parameter appears in the paper, but the extracted value is incorrect.
+
+The target formatting is a `.csv` file based on a standard template provided by the team at **PHAC**, which includes parameter values, ranges, and other relevant details.
+
+## Setup Instructions
+
+The following preparations are required for the functionality of the main tools.
+
+1. **Dependencies**: The necessary libraries can be found in `requirements.txt` and should be installed beforehand. 
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. **API credentials:** Keys and endpoints for Azure Document Intelligence and OpenAI should be set as environment variables. Alternatively, these may be stored in a `.env` file. An example template:
+
+    ```python
+    OPENAI_KEY = "key"
+    OPENAI_ENDPOINT = "endpoint"
+    OPENAI_VERSION = "date"
+    DOCINT_KEY = "key"
+    DOCINT_ENDPOINT = "endpoint"
+    ```
+3. **Input PDFs:** A directory containing all the PDF articles to be processed must be provided.
+4. **Prompts and Parameters:** Prompts with instructions and parameter descriptions can be provided through the corresponding `.json` files in `config/`. The current template for prompts looks like this:
+    ```json
+    {
+        "sys_prompt": "[Intro to task and general instructions]",
+        "rag_sys_prompt": "[Intro to task and general instructions (RAG version)]",
+        "refine_prompt": "[Instructions for formatting previous response.]"
+    }   
+    ```
+
+    ```json
+    {
+        "parameters": [
+            "Parameter name: [Name]. Description: [Description]"
+            "Parameter name: [Name]. Description: [Description]"
+        ]
+    }
+    ```
+4. **True parameters:** For prompt refinement and performance evaluation, a `.csv` file containing the true parameter values for each of the treated papers. An example:
+    ```
+    PDF, TrueCFR, TrueLOS
+    75, NA, 5
+    88, NA, NA,
+    7471, 0, NA,
+    2146, 0, 9
+    1797, 0.05, 6
+    640, 0.23, NA
+    6300, 4.88, NA
+    ```
 
 
 ## Description of Components
-### `LLM_interaction/`
+
+### Miscellaneous Tools
+
+#### `LLM_interaction/`
+
 **Purpose**: Contains tools for interacting with large language models from OpenAI.
 
 - `gpt_client.py`:
@@ -33,7 +113,7 @@ This project is organized into modular components. These modules are combined in
 
 ---
 
-### `text_extractor/`
+#### `text_extractor/`
 **Purpose**: Handles extraction of structured and unstructured text from PDFs.
 
 - `docint.py`  
@@ -44,110 +124,126 @@ This project is organized into modular components. These modules are combined in
 
 ---
 
-### `config/`
-**Purpose**: Configuration files for prompts and parameter definitions.
-
-- `parameters.json`:  
-   Defines the parameters to extract from research articles.  
-- `prompts.json`:  
-   Contains LLM prompts to be used for the parameret extraction task.
-
----
-
-### `.env`
-Sensitive credentials for APIs such as Azure Document Intelligence and OpenAI should be stored here. An example template:
-
-```python
-OPENAI_KEY = "key"
-OPENAI_ENDPOINT = "endpoint"
-OPENAI_VERSION = "date"
-DOCINT_KEY = "key"
-DOCINT_ENDPOINT = "endpoint"
-```
----
-
-### `utils/`
+#### `utils/`
 **Purpose**: Miscellaneous utility functions.
 - `load_config`: Loads JSON configuration files (e.g., prompts, parameters).
 - `cleanup_dir`: Recursively removes a directory and its contents. Useful for resetting Chroma vector databases or temporary output.
+- `evaluate_confusion_matrix.py`: Contains various tools for evaluating the prompts obtained by `prompt_refined.py` (see below). For a given iteration of the pipeline, the script
+    - Computes performance metrics (sensitivity, specificity, accuracy, precision, F1, MCC).
+    - Displays the confusion matrix.
+    - Compares against the previous iteration.
+    - Flags specific papers were performance improved or got worse (e.g., from `Fail` to `Success`)
 ---
 
-### Top-Level Pipelines
+### Automated Prompt Refinement
+#### `prompt_refined.py`
+This module provides a standalone pipeline for refining prompts used to extract epidemiological parameters from selected papers. It uses the effectiveness of different prompt formulations before generating a new one that takes into account previous fails and successes. The module tracks iteration performance over time using manual evaluation input. This can be used for any parameter given that the appropriate input files are provided.
 
-- `two_stage_pipeline.py`
-    - Contains the `ParameterExtractor` class, which implements the core logic of the two_stage pipeline (see **Usage**).  
-    - Runs the full two_stage parameter extraction pipeline across all PDFs in a specified directory (see **Usage**).  
-    - Uses prompts and parameter definitions from the `config/` folder and outputs the structured results as a CSV.  
-    - Outputs can be exported to text files for inspection or evaluation.
-    - Suitable for batch processing and command-line use.
+**Usage:**
+```bash
+python prompt_refined.py --folder ./pdfs
+```
 
-- `rag_pipeline.py`  
-    - Implements a retrieval-augmented generation (RAG) pipeline for batch parameter extraction from medical PDFs.  
-    - Uses vector similarity search to retrieve relevant sections for each parameter, then performs a two-stage GPT query to extract and refine information.  
-    - Outputs a structured CSV containing results for all documents in a directory.
-    - Suitable for batch processing and command-line use.
+**Input:** 
+- Path to folder containing PDF files.
 
+**Workflow:**
 
-These scripts are designed to process multiple PDF files within a directory using the respective pipeline approach.
+1. Retrieve prior prompts used for a given parameter if they exists from a previous output.
+2. Ask GPT to generate a refined version of the prompts.
+3. Apply the refined prompt across multiple labelled documents.
+4. Compute confusion matrix (using `evaluate_confusion_matrix.py`).
 
+**Output**: All results are written to `promp_output.csv`, which has the structure of the following:
+|Prompt |Model Name |Parameter Name |Paper Number |Extracted Parameter |True Parameter |Success/Fail |Confusion Label|Iteration |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+|[prompt]|4o-mini|CFR|1538|20.5|20.5|Success| TP | 5|
 
-## Setup Instructions
+This output table may accumulate across runs and supports iterative refinement and scoring.
 
-1. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
+### Two-stage and RAG Extraction
 
-2. **Configure environment**:  
-   Create a `.env` file with your OpenAI and Azure credentials.
+#### `two_stage_pipeline.py`
 
-3. **Prepare inputs**:  
-   Place your research PDFs into a designated directory (e.g., `./papers/`).
+This pipeline applies the two-stage approach to parameter extraction on a folder of PDF files, without using RAG. It's mainly intended for testing on small papers, since it doesn't count tokens or generates chunks.
+The script contains the `ParameterExtractor` class, which implements the core logic on individual papers. It's suitable for batch processing and command-line use.
 
+**Usage:**
 
+```bash
+python two_stage_pipeline.py --folder ./pdfs --output results.csv --explanations --verbose
+```
 
-## Usage
+**Input:**
 
-### Option A: Two-stage Extraction
+|Argument | Description | Default|
+|----------|----------|----------|
+|--folder | (Required) Path to folder containing PDF files | N/A
+|--output | Path to output CSV file or directory | output.csv|
+|--explanations | Store GPT explanations for each document | False|
+|--verbose | Print status messages during processing | False|
 
-This approach consists in processesing a folder of PDF files, and applying a two-stage LLM pipeline to extract epidemiological parameters from each document.
+- The prompts and parameters to be used must be placed in the corresponding `.json` file in `config/`.
 
-Workflow:
-
+**Workflow:**
 1. For each PDF in the given directory, 
-    - Extract text from the PDF,
-    - Perform initial parameter extraction using an LLM,
-    - Refine and format the results via a second LLM query,
+    - Extract text from the PDF (using `TextExtractor`, wrapped in `ParameterExtractor`),
+    - Perform first query on ChatGPT (with prompt and parameters from `config` and the full article text),
+    - Refine and format the results via a second query to ChatGPT,
     - Store results.
 2. Combine al results into a data frame object.
 3. Export all results to a CSV file.
 
-It leverages the `ParameterExtractor` class from `double_layer_core` and uses configuration files located in the `config/` directory for parameter definitions and prompt templates.
+**Output:** 
+- A `.csv` file (`two_stage_results.csv`) containing the extracted parameters for each PDF in the specified directory. 
+- If `--explanations` is enabled, a text file `explanations.txt` is also saved, containing the raw GPT outputs from the first query.
 
-CLI usage:
+
+---
+
+#### `rag_pipeline.py`
+
+This pipeline implements a retrieval-augmented generation (RAG) for batch parameter extraction on a folder of PDF files. It uses the same two-stage logic as above, but it's more efficient as it only sends retrieved relevant sections from the papers. The vector databases are managed using **ChromaDB**, and the embeddings are performed with OpenAI's *text-embedding-3-large*. The script is suitable for command-line use.
+
+**Usage:**
 
 ```bash
-python double_layer_pipeline.py --folder ./pdfs --output results.csv --verbose
+python rag_pipeline.py --folder ./pdfs --output rag_results.csv --rag_n 7 --explanations --verbose
 ```
 
-### Option B: RAG Implementation
+**Input:**
 
-This approach consists in using RAG to process the contents of a folder of PDF files and extract specified parameters using GPT. It combines section-based text extraction (from `TextExtractor` in `docint.py`), vector embedding and retrieval via ChromaDB and OpenAI's text-embedding-3-large, and a two-step LLM prompting strategy (initial extraction + refinement, as in Option A).
+|Argument | Description | Default|
+|----------|----------|----------|
+|--folder | (Required) Path to folder containing PDF files | N/A
+|--output | Path to output CSV file or directory | output.csv|
+|--rag_n | Number of most relevant sections to retrieve per parameter | 5|
+|--explanations | Store GPT explanations for each document | False|
+|--verbose | Print status messages during processing | False|
 
-Workflow:
-1. Extract text from each PDF and split it into sections.
-2. Embed and store each section in a Chroma vector database.
-3. For each paper, retrieve the most relevant sections for each target parameter.
-4. Use GPT to generate and refine parameter extractions based on the retrieved context.
-5. Export all results to a CSV file.
+- The prompts and parameters to be used must be placed in the corresponding `.json` file in `config/`.
 
-CLI usage:
-```bash
-python rag_pipeline.py --folder ./pdfs --output rag_results.csv --rag_n 7 --verbose
-```
-You may customize parameter definitions and prompts by editing files in the config/ directory.
+**Workflow:**
 
-## Notes
-The LLMs used in this project (for text embedding and chat completions) are accessed via OpenAI’s API.
+1. Extracts and segments text content all PDFs in the given directory (using `TextExtractor`'s `section_chunks()` method).
+2. Embeds these sections and stores them in a Chroma vector database.
+1. For each PDF in the given directory, 
+    - Retrieve the paper's most relevan sections from the vector database (`rag_n` sections retrieved),
+    - Perform first query on ChatGPT (with prompt and parameters from `config` and the sections),
+    - Refine and format the results via a second query to ChatGPT,
+    - Store results.
+2. Combine al results into a data frame object.
+3. Export all results to a CSV file.
 
-For retrieval, the project currently uses a vector store (ChromaDB) and a basic retriever. This can be extended to other architectures.
+**Output:** 
+- A `.csv` file (`rag_results.csv`) containing the extracted parameters for each PDF in the specified directory. 
+- If `--explanations` is enabled, a text file `explanations.txt` is also saved, containing the raw GPT outputs from the first query.
+
+
+**Notes:**
+- Queries to the vector database are made using the parameter names and descriptions in `parameters.json`.
+- `rag_n` sections are retrieved **per parameter**.\
+
+---
+### Formatting and Evaluation

@@ -33,9 +33,9 @@ def ask_GPT(prompt: list[dict], deployment_name: str = "gpt-4o-mini") -> str:
         raise ValueError("OPENAI_KEY and/or OPENAI_ENDPOINT not set in environment variables.")
 
     client = AzureOpenAI(
-      azure_endpoint = endpoint, 
-      api_key=key,  
-      api_version=version
+        azure_endpoint = endpoint, 
+        api_key=key,  
+        api_version=version
     )
 
     # Ask ChatGPT

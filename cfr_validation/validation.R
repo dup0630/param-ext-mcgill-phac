@@ -17,7 +17,7 @@ df$result <- mapply(function(t, e) {
   if (is.na(t) && !is.na(e)) return("FP")
   if (!is.na(t) && is.na(e)) return("FN")
   if (isTRUE(all.equal(as.numeric(t), as.numeric(e), tolerance = 1))) return("TP")
-  return("FP")
+  return("FN")
 }, df$TrueCFR, df$rag_ext)
 
 cm <- table(df$result)
