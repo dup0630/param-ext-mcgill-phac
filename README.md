@@ -1,9 +1,5 @@
 # Epidemiological Parameter Extraction with LLMs
 
-This repository contains a framework for extracting epidemiological parameters from medical research publications using large language models, with and without retrieval-augmented generation.
-
-This work was developed in collaboration with the **Public Health Agency of Canada** to support automated knowledge extraction for public health surveillance and evidence synthesis.
-
 ## Contents
 1. [Project Overview](#project-overview)
 2. [Setup Instructions](#setup-instructions)
