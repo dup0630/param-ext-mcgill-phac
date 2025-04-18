@@ -150,7 +150,7 @@ python prompt_refined.py --folder ./pdfs
 3. Apply the refined prompt across multiple labelled documents.
 4. Compute confusion matrix (using `evaluate_confusion_matrix.py`).
 
-**Output**: All results are written to `promp_output.csv`, which has the structure of the following:
+**Output**: All results are written to `promp_output.csv`, which has the following structure:
 |Prompt |Model Name |Parameter Name |Paper Number |Extracted Parameter |True Parameter |Success/Fail |Confusion Label|Iteration |
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|
 |[prompt]|4o-mini|CFR|1538|20.5|20.5|Success| TP | 5|
