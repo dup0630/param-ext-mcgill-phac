@@ -8,8 +8,7 @@
     - [Automated Prompt Refining](#automated-prompt-refinement)
     - [Two-stage and RAG Extraction](#two-stage-and-rag-extraction)
     - [Formatting and Evaluation](#formatting-and-evaluation)
-4. [Usage and Examples](#usage)
-5. [Notes and Other Details]()
+5. [Notes and Other Details](#notes-and-other-details)
 
 ## Project Overview
 
@@ -124,7 +123,7 @@ The following preparations are required for the functionality of the main tools.
 **Purpose**: Miscellaneous utility functions.
 - `load_config`: Loads JSON configuration files (e.g., prompts, parameters).
 - `cleanup_dir`: Recursively removes a directory and its contents. Useful for resetting Chroma vector databases or temporary output.
-- `evaluate_confusion_matrix.py`: Contains various tools for evaluating the prompts obtained by `prompt_refined.py` (see below). For a given iteration of the pipeline, the script
+- `evaluate_confusion_matrix.py`: Contains various tools for evaluating the prompts obtained by `prompt_refiner.py` (see below). For a given iteration of the pipeline, the script
     - Computes performance metrics (sensitivity, specificity, accuracy, precision, F1, MCC).
     - Displays the confusion matrix.
     - Compares against the previous iteration.
@@ -132,16 +131,17 @@ The following preparations are required for the functionality of the main tools.
 ---
 
 ### Automated Prompt Refinement
-#### `prompt_refined.py`
+#### `prompt_refiner.py`
 This module provides a standalone pipeline for refining prompts used to extract epidemiological parameters from selected papers. It uses the effectiveness of different prompt formulations before generating a new one that takes into account previous fails and successes. The module tracks iteration performance over time using manual evaluation input. This can be used for any parameter given that the appropriate input files are provided.
 
 **Usage:**
 ```bash
-python prompt_refined.py --folder ./pdfs
+python prompt_refiner.py --folder ./pdfs
 ```
 
 **Input:** 
 - Path to folder containing PDF files.
+- A list of parameter names as they appear in the validation data must be placed in `refiner_parameters.json`
 
 **Workflow:**
 

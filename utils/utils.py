@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 def load_config(file_path: str) -> dict:
     """Load a JSON file and return its contents as a dictionary."""
@@ -20,3 +21,11 @@ def cleanup_dir(dir: str) -> None:
         elif os.path.isfile(file_path):
             os.remove(file_path)
     os.rmdir(dir)
+
+def extract_numeric(paper_filename: str):
+    """
+    Extract the numeric ID from paper names (e.g., '12.pdf' → 12).
+    Used for sorting and comparison.
+    """
+    match = re.search(r'\d+', paper_filename)
+    return int(match.group()) if match else float('inf')
