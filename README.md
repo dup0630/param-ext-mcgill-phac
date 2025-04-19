@@ -132,25 +132,30 @@ The following preparations are required for the functionality of the main tools.
 
 ### Automated Prompt Refinement
 #### `prompt_refiner.py`
-This module provides a standalone pipeline for refining prompts used to extract epidemiological parameters from selected papers. It uses the effectiveness of different prompt formulations before generating a new one that takes into account previous fails and successes. The module tracks iteration performance over time using manual evaluation input. This can be used for any parameter given that the appropriate input files are provided.
+This module provides a standalone pipeline for refining prompts used to extract epidemiological parameters from selected papers. It uses the effectiveness of different prompt formulations before generating a new one that takes into account previous fails and successes. The module tracks iteration performance over time using **manual evaluation input**. This can be used for any parameter given that the appropriate input files are provided.
 
 **Usage:**
 ```bash
-python prompt_refiner.py --folder ./pdfs
+python prompt_refiner.py
 ```
 
 **Input:** 
-- Path to folder containing PDF files.
-- A list of parameter names as they appear in the validation data must be placed in `refiner_parameters.json`
+- `directory: str` Path to folder containing PDF files.
+- `results_path: str` Path to `.csv` with logged results (or output on first usage).
+- `true_param_path: str` Path to `.csv` with true parameter values for each paper.
+- `cache_dir: str` Path to directory where cached texts will be placed and retrieved.
+- A list of parameter names as they appear in the true parameters `.csv` must be placed in `config/refiner_parameters.json`.
+- Instructions for refining prompts must be placed in `config/refiner_prompt.txt`.
 
 **Workflow:**
 
 1. Retrieve prior prompts used for a given parameter if they exists from a previous output.
 2. Ask GPT to generate a refined version of the prompts.
 3. Apply the refined prompt across multiple labelled documents.
-4. Compute confusion matrix (using `evaluate_confusion_matrix.py`).
+4. Prompt the user for manual evaluation.
+5. Store and export evaluation metrics and metadata.
 
-**Output**: All results are written to `promp_output.csv`, which has the following structure:
+**Output**: Results are added to the `.csv` given in `results_path`, which must have following structure:
 |Prompt |Model Name |Parameter Name |Paper Number |Extracted Parameter |True Parameter |Success/Fail |Confusion Label|Iteration |
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|
 |[prompt]|4o-mini|CFR|1538|20.5|20.5|Success| TP | 5|
@@ -278,3 +283,9 @@ python legacy_cfr_extraction.py --mode all
     - Standardized extraction format
     - Important keywords
     - Calculated CFR (`Numerator / Denominator`)
+
+## Notes and Other Details
+
+- Directories with results regarding Case Fatality Rate (CFR) in measles studies (`cfr_validation`) and PDT complication rate in obese patients (`obesity_validation`) are left in the repo as samples. However, the papers used for these tasks are not included to avoid copyright infringement.
+
+- Unit tests for some of the modules are included in `tests`.
