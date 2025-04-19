@@ -140,7 +140,16 @@ def generate_improved_prompt(parameter: str, previous_prompts: str) -> str:
     prompt = [{"role": "user", "content": prompt_text}]
     try:
         response = ask_GPT(prompt=prompt)
-        return response
+        with open("config/refiner_prompt.txt", "r", encoding="utf-8") as prompt_file:
+            retrieval_instructions = prompt_file.read()
+
+        improved_prompt = f"""{retrieval_instructions}
+
+**Parameter to Extract:** {parameter}
+{response}  # <-- This is the improved prompt
+"""
+
+        return improved_prompt
     except Exception as e:
         print(f"Error generating improved prompt for {parameter}: {e}")
         return "Not Found"
@@ -163,11 +172,8 @@ def extract_parameters(pdf_text: str, prompt: str, parameter: str) -> str:
         retrieval_instructions = prompt_file.read()
 
     # Construct the full prompt
-    full_prompt = f"""{retrieval_instructions}
-
-    **Parameter to Extract:** {parameter}
-    {prompt}  # <-- This is the improved prompt
-
+    full_prompt = f"""{prompt}
+    
     **Document Text:**
     {pdf_text[:16000]}
     """
