@@ -1,5 +1,5 @@
 """
-prompt_refiner_manual.py
+prompt_refiner.py
 
 This module implements an interactive pipeline for manually guided prompt refinement and parameter extraction 
 from epidemiological research papers using GPT models. The process is tailored for iterative experimentation 
