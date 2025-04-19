@@ -110,7 +110,7 @@ def extract_parameters(pdf_text: str, prompt: str, parameter: str) -> str:
     Returns raw GPT output (including explanation and value).
     """
 
-    with open("config/refiner_prompt.txt", "r") as prompt_file:
+    with open("config/refiner_prompt.txt", "r", encoding="utf-8") as prompt_file:
         retrieval_instructions = prompt_file.read()
 
     # Construct the full prompt
@@ -122,7 +122,8 @@ def extract_parameters(pdf_text: str, prompt: str, parameter: str) -> str:
     **Document Text:**
     {pdf_text[:16000]}
     """
-    raw_response = ask_GPT(prompt=full_prompt)
+    raw_response = ask_GPT(prompt=[{"role": "user", "content": full_prompt}])
+
     print(f"\n**ChatGPT Response for {parameter}:**\n{raw_response}\n")
 
     # Return the extracted response as-is

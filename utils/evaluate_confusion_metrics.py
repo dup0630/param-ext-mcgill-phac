@@ -7,7 +7,7 @@ def safe_divide(numerator, denominator):
     return numerator / denominator if denominator != 0 else float('nan')
 
 
-def load_confusion_data(csv_path="CFR_measles.csv"):
+def load_confusion_data(csv_path="cfr_validation\CFR_measles.csv"):
     """Loads the main dataframe and prompts the user to select an iteration to evaluate."""
     df = pd.read_csv(csv_path)
 
