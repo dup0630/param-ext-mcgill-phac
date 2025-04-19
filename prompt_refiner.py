@@ -191,7 +191,7 @@ def main(directory: str, results_path: str , true_param_path: str, cache_dir: st
             results_df = update_csv_with_results(results_df, results_path, result)
   
 if __name__ == "__main__":
-    pdf_dir = "cfr_validation/test_papers"
+    pdf_dir = "test_papers"
     results_path = "cfr_validation/CFR_measles.csv"
     true_cfr = "cfr_validation/true_parameters.csv"
 

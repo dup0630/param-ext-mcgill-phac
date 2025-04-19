@@ -13,6 +13,9 @@ chroma/
 # Test papers
 test_papers/
 
+# Cached texts from Azure
+cached_texts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
