@@ -111,7 +111,7 @@ def extract_parameters(pdf_text: str, prompt: str, parameter: str) -> str:
     """
 
     with open("config/refiner_prompt.txt", "r") as prompt_file:
-        retrieval_instructions = prompt_file.read
+        retrieval_instructions = prompt_file.read()
 
     # Construct the full prompt
     full_prompt = f"""{retrieval_instructions}
@@ -165,7 +165,7 @@ def main(directory: str, results_path: str , true_param_path: str, cache_dir: st
         for index, row in true_param_df.iterrows():
             true_param = row[param_colname]
             filename = row["PDF"]
-            pdf_path = os.path.join(directory, f"{filename},pdf")
+            pdf_path = os.path.join(directory, f"{filename}.pdf")
             if not os.path.exists(pdf_path):
                 print(f"No PDF found for paper {filename}. Skipping.")
                 continue
@@ -191,9 +191,9 @@ def main(directory: str, results_path: str , true_param_path: str, cache_dir: st
             results_df = update_csv_with_results(results_df, results_path, result)
   
 if __name__ == "__main__":
-    pdf_dir = "crf_validation/test_papers"
+    pdf_dir = "cfr_validation/test_papers"
     results_path = "cfr_validation/CFR_measles.csv"
-    true_cfr = "crf_validation/true_parameters.csv"
+    true_cfr = "cfr_validation/true_parameters.csv"
 
     main(directory=pdf_dir, results_path=results_path, true_param_path=true_cfr)
 
