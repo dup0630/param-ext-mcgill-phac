@@ -72,6 +72,38 @@ def extract_text_from_pdf(pdf_path: str, paper_number: str, cache_dir: str) -> s
         f.write(text)
     return text
 
+def build_prompt_history(df: pd.DataFrame, parameter : str):
+    """
+    Builds a formatted string summarizing the history of prompts used to extract a given parameter.
+
+    For the specified parameter name, this function filters the DataFrame `df` and retrieves
+    all rows where that parameter was used. For each row, it extracts the prompt, the extracted
+    parameter value, the true value, and whether the extraction was successful.
+
+    Returns a multi-line string containing these records, separated by "---" lines, which can be
+    used to display or analyze prompt performance history.
+    """
+
+    records = df[df["Parameter Name"] == parameter]
+    history_blocks = []
+    
+    for _, row in records.iterrows():
+        prompt_text = str(row.get("Prompt", "")).strip()
+        extracted = str(row.get("Extracted Parameter", "")).strip()
+        truth = str(row.get("True Parameter", "")).strip()
+        success = str(row.get("Success/Fail", "")).strip()
+
+
+        block = (
+            f"Prompt: {prompt_text}\n"
+            f"Extracted: {extracted}\n"
+            f"True: {truth}\n"
+            f"Success: {success}\n"
+        )
+        history_blocks.append(block)
+    
+    return "\n---\n".join(history_blocks)
+
 
 def generate_improved_prompt(parameter: str, previous_prompts: str) -> str:
     """
@@ -80,15 +112,30 @@ def generate_improved_prompt(parameter: str, previous_prompts: str) -> str:
     """
     print(f"Generating improved prompt for {parameter}...")
     prompt_text = (
-        "You are an AI assistant extracting specific **epidemiological parameters** from research papers.\n\n"
-        "### Task:\n"
-        f"Your job is to extract only the **{parameter}** from the given research paper text.\n\n"
-        "### How to Improve Extraction:\n"
-        "Below are previous prompts used for extracting this parameter. Improve upon them to maximize accuracy:\n\n"
-        f"{previous_prompts}\n\n"
-        "### Response Guidelines:\n"
-        "- **Your response must be a single improved prompt** for extracting the parameter.\n"
-        "- **DO NOT include explanations or introductions. Only return the improved prompt.**"
+        "You are an AI assistant tasked with improving prompt design for extracting specific **epidemiological parameters** from medical research papers using large language models.\n\n"
+        
+        "### Objective:\n"
+        f"Your job is to extract only the **{parameter}** from research paper text using a well-crafted prompt. You are provided with a history of previous prompts along with examples of their performance. Each block includes:\n"
+        "- The prompt that was used\n"
+        "- The model's extracted output\n"
+        "- The correct (ground truth) value\n"
+        "- Whether the extraction was marked a success or failure by a human evaluator\n\n"
+    
+        "### Instructions:\n"
+        "- You may revise and improve the **retrieval instructions** section that precedes the document text in order to increase extraction accuracy.\n"
+        "- However, you **must not remove** the retrieval instructions altogether — they are required and must remain present in the improved prompt.\n"
+        "- Analyze patterns in failed extractions: how did the extracted value differ from the true one? What kinds of misunderstanding, vagueness, or missing guidance might have contributed?\n"
+        "- Likewise, consider what made successful prompts work. What specific phrasing or framing helped guide the model toward the correct answer?\n"
+        "- Use this insight to improve the retrieval instructions section and/or the phrasing of the core task instruction.\n"
+        "- Your output must be a **single improved prompt**, suitable for future GPT use.\n"
+
+    
+        "### Constraints:\n"
+        "- Your output must be a single prompt for extracting the parameter **only**.\n"
+        "- **Do NOT include any explanation, commentary, or justification. Just return the improved prompt as plain text.**\n\n"
+    
+        "### Historical Prompt Examples with Performance:\n"
+        f"{previous_prompts}"
     )
     prompt = [{"role": "user", "content": prompt_text}]
     try:
@@ -110,6 +157,8 @@ def extract_parameters(pdf_text: str, prompt: str, parameter: str) -> str:
     Returns raw GPT output (including explanation and value).
     """
 
+    #insert into retrieval instructions mandatory information to communicate to
+    #GPT if necessary. Currently unused.
     with open("config/refiner_prompt.txt", "r", encoding="utf-8") as prompt_file:
         retrieval_instructions = prompt_file.read()
 
@@ -160,7 +209,7 @@ def main(directory: str, results_path: str , true_param_path: str, cache_dir: st
 
     for i, param in enumerate(parameters):
         param_colname = parameter_colnames[i]
-        previous_prompts = "\n".join(results_df[results_df["Parameter Name"] == param]["Prompt"].dropna().tolist())
+        previous_prompts = build_prompt_history(results_df, param)
         improved_prompt = generate_improved_prompt(param, previous_prompts)
     
         for index, row in true_param_df.iterrows():
@@ -176,7 +225,7 @@ def main(directory: str, results_path: str , true_param_path: str, cache_dir: st
 
             print(f"The True parameter for '{param}' (paper {filename}): {true_param}")
     
-            success_fail = input(f"Was it successful? (Success/Fail): ").strip()
+            success_fail = input("Was it successful? (Success/Fail):").strip()
             confusion_level = input("Is it a TP/TN/FP/FN: ").strip()
             result = {
                 "Prompt": improved_prompt,

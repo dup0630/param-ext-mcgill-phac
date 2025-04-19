@@ -3905,3 +3905,1709 @@ Thus, the CFR is approximately **4.9%**.",4.88,Success,TP,11
 **Text:** [Insert research paper text here]
 
 **Task:** What is the Hospitalized Case Fatality Rate (CFR) for measles mentioned in the text? Please provide the value as a percentage.",gpt-4o-mini, Hospitalized Case Fatality Rate (CFR) for measles,7471,The Hospitalized Case Fatality Rate (CFR) for measles mentioned in the text is **0%**.,0.0,Success,TP,11
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),75,"The provided document does not contain any explicit mention or numerical data regarding the **Hospitalized Case Fatality Rate (CFR)**. As such, I am unable to extract this specific epidemiological parameter from the text. If there is any other aspect of the document you would like to explore or if you have more specific sections to review, please let me know!", NA,Success,TN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),88,"The provided document text does not contain specific numerical data or values related to the Hospitalized Case Fatality Rate (CFR). It is primarily an introduction and overview of communicable disease surveillance in Canada, including references to various diseases, reporting systems, and the structure of the report itself.
+
+To extract the Hospitalized Case Fatality Rate (CFR), information such as the number of hospitalized cases and the number of deaths among those hospitalized would be necessary, but it is not present in the text you provided. Therefore, I cannot provide a CFR value based on the current document text. If there is a specific section of the paper you would like to focus on or if additional text is available that contains the relevant data, please share that for further analysis.", NA,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),98,"The provided document does not contain specific data regarding the Hospitalized Case Fatality Rate (CFR), including the number of deaths among hospitalized patients or the total number of hospitalized cases for any specific diseases mentioned. Therefore, it is not possible to extract the Hospitalized CFR from this text. 
+
+If you have another document or specific data regarding hospitalized cases and deaths, please share it, and I will help you extract the CFR accordingly.", NA,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),104,"The **Hospitalized Case Fatality Rate (CFR)** extracted from the provided document is **9.3%**. This percentage represents the mortality rate from Shigella infections among hospitalized patients, indicating that 9.3% of the hospitalized patients with a positive coproculture for Shigella died during the study period.", NA,Fail,FP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),213,"The provided text does not explicitly include the **Hospitalized Case Fatality Rate (CFR)** for measles during the outbreak in Haut-Rhin, Alsace, France. It contains information about measles cases, including the total number of reported cases (67) and some details regarding complications and hospitalizations but does not specify the number of deaths or calculate a CFR. 
+
+For accuracy, the CFR is determined using the formula:
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalized cases}} \right) \times 100\% \]
+
+Since the text does not provide any deaths related to the hospitalized cases of measles during this outbreak, there is insufficient data to extract a CFR. It mentions that complications can include pneumonia and other severe conditions but does not indicate how many cases resulted in fatalities. Therefore, the **Hospitalized Case Fatality Rate (CFR)** cannot be extracted from this document.", NA,Success,TN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),242,"The provided text does not contain any information related to the **Hospitalized Case Fatality Rate (CFR)**, as it primarily discusses the global situation of measles and the impact of the COVID-19 pandemic on vaccination efforts and measles surveillance. There are no numerical values presented regarding the number of hospitalized cases or deaths related to any illness, and therefore, I cannot extract the CFR as requested. 
+
+If you have another document or specific text regarding the CFR that you would like me to analyze, please provide that text.", NA,Success,TN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),511,"The **Hospitalized Case Fatality Rate (CFR)** for this study on measles is **0%**. The document explicitly states that ""None death was reported"" among the 73 hospitalized patients affected by measles during the outbreak between 2002 and 2003. Therefore, with a numerator of 0 (number of deaths) and a denominator of 73 (number of hospitalized cases), the CFR is calculated as follows:
+
+CFR = (Number of deaths / Number of hospitalized cases) × 100 = (0 / 73) × 100 = 0%
+
+Thus, the hospitalized CFR for measles during this outbreak is **0%**.", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),554,"The **Hospitalized Case Fatality Rate (CFR)** was derived from the following information in the document:
+
+- Total cases reported: 102
+- Cases confirmed as nosocomial (hospital-acquired): 43
+- Cases concerning patients: 8
+- Total deaths among patients: 1
+
+While the document states that one patient died from nosocomial measles, it does not clearly indicate whether this death is directly attributable to the measles infection.
+
+To calculate the CFR for hospitalized cases:
+- Numerator (deaths among hospitalized patients): 1
+- Denominator (total hospitalized cases): 8
+
+Therefore, the **Hospitalized Case Fatality Rate (CFR)** among the hospitalized patients is calculated as follows:
+
+CFR = (Number of Deaths / Number of Hospitalized Cases) × 100
+CFR = (1 / 8) × 100 = 12.5%
+
+**CFR = 12.5%** (1 death among 8 hospitalized cases).", 0,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),584,"The extracted Hospitalized Case Fatality Rate (CFR) from the provided text is as follows:
+
+In 2008, there were **two deaths** reported due to measles in France. However, the text does not specify the total number of hospitalized cases related to these deaths. To calculate the CFR, which typically requires both the numerator (number of deaths) and the denominator (number of hospitalized cases), we cannot compute a precise percentage without the denominator. 
+
+Therefore, we conclude that the CFR cannot be calculated from the provided information as the total number of hospitalized cases is not stated.", 0,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),585,"The **Hospitalized Case Fatality Rate (CFR)** is not explicitly mentioned in the provided text. The document provides information about measles cases, some of which were hospitalized, but it does not state the number of deaths among those hospitalized patients, nor does it provide a numerical value or percentage for CFR.
+
+To determine the CFR, you would need data such as the number of hospitalized patients who died from the illness and the total number of hospitalized patients. Without that information in the text, I cannot extract a specific CFR value. 
+
+If you have access to sections of the document that detail mortality data related to the hospitalized measles cases, please provide that text for further analysis.", 0,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1544,"The **Hospitalized Case Fatality Rate (CFR)** for the measles epidemic described in the document is as follows:
+
+- **Number of Deaths**: 0
+- **Number of Hospitalized Cases**: 314
+
+Since there were no deaths identified among the hospitalized cases, the Hospitalized Case Fatality Rate (CFR) is calculated as follows:
+
+\[ \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Number of Hospitalized Cases}} \right) \times 100 \]
+
+Substituting the values:
+
+\[ \text{CFR} = \left( \frac{0}{314} \right) \times 100 = 0\% \]
+
+To summarize, the **Hospitalized Case Fatality Rate (CFR)** during the measles epidemic was **0%**.", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1846,"The **Hospitalized Case Fatality Rate (CFR)** can be calculated from the information presented in the text. During the measles epidemic in the study:
+
+1. A total of **132 children** attended the feeding center.
+2. **Two children** aged below six months died from complications (one from bronchopneumonia and one from dysentery). 
+
+To calculate the CFR among the hospitalized cases (in this context, those who developed serious complications that may have led to hospitalization or death):
+
+- **Numerator (Deaths)**: 2
+- **Denominator (Hospitalized Cases)**: The number of children who were hospitalized or experienced severe complications. The text indicates that ""two required hospitalization for complications,"" making it unclear what the total number of cases that should be included in the denominator should be. However, we should assert that at least 2 children were hospitalized when the cases with complications were high.
+
+Thus, if we assume the 2 children who died were the only cases that were hospitalized, the CFR could be simply computed as:
+  
+- CFR = (Number of Deaths / Number of Hospitalized Cases) * 100
+- CFR = (2 / 2) * 100 = **100%**
+
+This suggests that if only these two cases are considered from the available information, the CFR would reflect a very high rate. However, if there were more hospitalized cases not specified in the provided text, the CFR would need to be recalibrated based on the precise number of total hospitalized cases.
+
+If we take into context the larger population that were affected and developed severe complications during the measles epidemic, the calculated CFR might show a different picture as the denominator would increase significantly. Unfortunately, based on the text given, a more precise and accurate calculation isn't possible without additional specific data on the total number of hospitalized cases.
+
+In summary, the **Hospitalized Case Fatality Rate (CFR)** derived from the text is at least **100%**, given the limited information available regarding hospitalized children.", 0,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3083,"The extracted **Hospitalized Case Fatality Rate (CFR)** from the provided document text is as follows:
+
+- **Number of cases requiring hospitalization**: 5
+- **Number of measles deaths reported**: 0
+
+Since there were no reported deaths among the hospitalized cases, the **Hospitalized Case Fatality Rate (CFR)** is **0%**. 
+
+This means that out of the 5 hospitalized cases, 0 patients died within the specified time frame, resulting in a CFR of:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalized cases}} \right) \times 100 = \left( \frac{0}{5} \right) \times 100 = 0\%
+\]", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3561,"The **Hospitalized Case Fatality Rate (CFR)** for measles in Poland in 2018 is not applicable as there were **no fatal cases reported**. Out of the 359 notified cases of measles, **209 patients (58.2%) were hospitalized**, but there were **zero deaths**, which means the CFR is 0%.
+
+For clarity:
+- **Numerator (Deaths):** 0
+- **Denominator (Hospitalized Cases):** 209 
+- **CFR:** 0%", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3562,"The **Hospitalized Case Fatality Rate (CFR)** for measles in Poland in 2020 is **0%**. This is based on the data indicating that out of 29 notified measles cases, **9 patients (31%) were hospitalized**, and importantly, **no fatalities were reported**. Thus, the numerator (number of deaths) is 0 and the denominator (number of hospitalized cases) is 9. 
+
+Therefore, the CFR can be expressed as:
+
+\[
+\text{CFR} = \frac{0 \text{ deaths}}{9 \text{ hospitalized cases}} \times 100 = 0\%
+\]", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),7471,"Based on the provided text, the **Hospitalized Case Fatality Rate (CFR)** can be extracted as follows:
+
+**CFR:** 0%
+
+- **Numerator (Number of Deaths):** 0 deaths occurred among hospitalized measles patients.
+- **Denominator (Number of Hospitalized Cases):** 29% of the total 79 cases were hospitalized, equating to 23 hospitalized cases (0.29 x 79 = 23).
+
+Thus, the Hospitalized Case Fatality Rate (CFR) is 0%, indicating that there were no deaths among the hospitalized patients during the outbreak.", 0,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2146,"The **Hospitalized Case Fatality Rate (CFR)** for the measles outbreak in France in 2008 can be calculated from the information provided:
+
+- **Numerator (Number of Deaths):** 2 people died from complications related to measles.
+- **Denominator (Number of Hospitalized Cases):** The document does not specify the exact number of hospitalized cases, but it does mention there were 604 reported cases of measles in total.
+
+To calculate the case fatality rate, we would typically use the formula:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Number of Cases}} \right) \times 100
+\]
+
+Substituting the known values:
+
+\[
+\text{CFR} = \left( \frac{2}{604} \right) \times 100 \approx 0.33\%
+\]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **0.33%** for the measles outbreak in France in 2008.", 0,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1797,"The **Hospitalized Case Fatality Rate (CFR)** reported in the study is as follows:
+
+- **Numerator (Number of Deaths):** 1 death
+- **Denominator (Number of Hospitalized Cases):** 3,953 patients
+
+To calculate the CFR:
+
+\[ 
+\text{CFR} = \frac{\text{Number of Deaths}}{\text{Number of Hospitalized Cases}} \times 100 
+\]
+
+\[ 
+\text{CFR} = \frac{1}{3953} \times 100 \approx 0.0253\% 
+\]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **0.03%** (rounded to two decimal places).", 0.05,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),640,"The Hospitalized Case Fatality Rate (CFR) for measles in the provided document is calculated from the reported hospital admissions and deaths. Specifically, there were **2200 hospital admissions for measles** and **5 deaths** that occurred as a result of the disease during that year in New South Wales.
+
+To calculate the CFR:
+
+- **Numerator (deaths)**: 5
+- **Denominator (hospitalized cases)**: 2200
+
+The CFR is calculated as follows:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalized cases}} \right) \times 100
+\]
+
+\[
+\text{CFR} = \left( \frac{5}{2200} \right) \times 100 \approx 0.227\%
+\]
+
+Thus, the Hospitalized Case Fatality Rate (CFR) for measles in this context is approximately **0.23%**.", 0.23,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),409,"The **Hospitalized Case Fatality Rate (CFR)** from the provided text can be calculated as follows:
+
+- **Number of deaths**: 10
+- **Number of hospitalizations**: 4,000
+
+The **CFR** is computed using the formula:
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalizations}} \right) \times 100 \]
+
+Substituting in the numbers:
+
+\[ \text{CFR} = \left( \frac{10}{4000} \right) \times 100 = 0.25\% \]
+
+Thus, the Hospitalized Case Fatality Rate (CFR) is **0.25%**.", 0.25,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),347,"The **Hospitalized Case Fatality Rate (CFR)** for measles in the provided text can be calculated as follows:
+
+- **Number of deaths among hospitalized cases**: 4
+- **Total number of hospitalized cases**: 1,279
+
+To compute the CFR:
+\[
+\text{CFR} = \left(\frac{\text{Number of deaths}}{\text{Total number of hospitalized cases}}\right) \times 100
+\]
+\[
+\text{CFR} = \left(\frac{4}{1279}\right) \times 100 \approx 0.31\%
+\]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **0.31%**.", 0.31,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),558,"The **Hospitalized Case Fatality Rate (CFR)** from the document is expressed as follows:
+
+- **Total Admissions**: 1739
+- **Recorded Deaths**: 162
+- **CFR Calculation**: (Number of Deaths / Total Admissions) x 100 = (162 / 1739) x 100 = 9.3%
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is **9.3%**.", 3.14,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2209,"The extracted **Hospitalized Case Fatality Rate (CFR)** from the provided document is as follows:
+
+- **Number of deaths**: 2
+- **Number of hospitalized cases**: Not specifically mentioned in the document. However, a total of **604 cases** were reported in 2008, and it can be inferred that at least some of these cases required hospitalization.
+
+Since the exact number of hospitalized individuals is not provided, the CFR cannot be calculated definitively as a percentage. If we assume that all cases reported could hypothetically be hospitalized (which is not accurate in practice), the CFR would be:
+
+\[ 
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of cases}} \right) \times 100 = \left( \frac{2}{604} \right) \times 100 \approx 0.33\%
+\]
+
+Please note that this calculation assumes all reported cases were hospitalized, which is likely not the case. For a more precise CFR, the actual number of hospitalized cases specifically needs to be known.", 3.23,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1154,"The **Hospitalized Case Fatality Rate (CFR)** from the provided text is 3.8%. This percentage represents the number of deaths among hospitalized children with measles. 
+
+To clarify: 
+- **Numerator (Number of Deaths)**: 28 children died.
+- **Denominator (Number of Hospitalized Cases)**: 728 children were hospitalized.
+
+Thus, the calculation for the CFR is:
+
+\[ \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Number of Hospitalized Cases}} \right) \times 100 = \left( \frac{28}{728} \right) \times 100 = 3.84\% \]
+
+This rounds to approximately **3.8%**.", 3.85,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),6300,"The Hospitalized Case Fatality Rate (CFR) from the provided document can be calculated from the available data. 
+
+- **Number of deaths**: 2 
+- **Number of hospitalized cases**: 41 
+
+To compute the CFR:
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalized cases}} \right) \times 100 \]
+
+\[ \text{CFR} = \left( \frac{2}{41} \right) \times 100 \approx 4.88\% \]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **4.88%**.", 4.88,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1754,"The Hospitalized Case Fatality Rate (CFR) in the provided document is calculated based on the following data:
+
+- Total number of hospitalized cases of measles: **647**
+- Total number of deaths: **37**
+
+To calculate the CFR:
+
+CFR = (Number of deaths / Total number of hospitalized cases) × 100
+
+CFR = (37 / 647) × 100 ≈ **5.72%**
+
+Thus, the **Hospitalized CFR is approximately 5.72%**, indicating that about 5.72% of hospitalized measles patients died from the illness during the study period.", 5.72,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),275,The Hospitalized Case Fatality Rate (CFR) extracted from the document is **6.3%**. This indicates that 6.3% of the hospitalized children with measles in the study died as a result of the illness., 6.25,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),664,"The **Hospitalized Case Fatality Rate (CFR)** for measles in this study is **7.9%**. This figure is derived from a total of **1778** hospitalized cases (admissions) and **141** associated deaths during the study period from 1985 to 1993. Therefore, the CFR is calculated as follows:
+
+- **Numerator (Deaths):** 141
+- **Denominator (Hospitalized Cases):** 1778
+- **CFR = (Deaths / Hospitalized Cases) x 100 = (141 / 1778) x 100 = 7.9%**.", 7.93,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1910,"The **Hospitalized Case Fatality Rate (CFR)** extracted from the document is:
+
+- **CFR:** 8.64%
+- **Numerator (Number of Deaths):** 19
+- **Denominator (Number of Hospitalized Cases):** 220
+
+This indicates that 19 out of 220 hospitalized children with complicated measles died during their hospitalization, resulting in a CFR of 8.64%.", 8.64,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),531,"The **Hospitalized Case Fatality Rate (CFR)** extracted from the text is **7.69%**. This figure represents the proportion of hospitalized children who died from measles during the study period. Specifically, there were **6 deaths** among **65 cases** of measles, which translates to a CFR expressed as follows:
+
+- **Numerator (Number of Deaths):** 6
+- **Denominator (Number of Hospitalized Cases):** 65
+- **CFR:** (6 deaths / 65 cases) × 100 = 7.69%
+
+This indicates that approximately 7.69% of hospitalized patients diagnosed with measles died within the specified time frame of the study.", 9.23,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1061,"The **Hospitalized Case Fatality Rate (CFR)** reported in the document is 10%, indicating that out of the children who were admitted to the hospital due to complications of measles, 4 out of 40 died. This can be expressed as follows:
+
+- **Numerator (Deaths):** 4 (children who died)
+- **Denominator (Hospitalized Cases):** 40 (children admitted to the hospital)
+
+Thus, the CFR for this group is calculated as (4/40) * 100 = **10%**.", 10,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),365,"The **Hospitalized Case Fatality Rate (CFR)** from the study is calculated as follows:
+
+- **Total number of hospitalized cases:** 784
+- **Total number of deaths:** 85
+
+To find the Case Fatality Rate (CFR), the formula is:
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Number of hospitalized cases}} \right) \times 100 \]
+
+Substituting the values:
+
+\[ \text{CFR} = \left( \frac{85}{784} \right) \times 100 \approx 10.8\% \]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is **10.8%**.", 10.84,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1641,"**Hospitalized Case Fatality Rate (CFR) Extracted:**
+
+In the study, a total of **331 hospitalized measles patients** were included, and **38 patients died** while hospitalized. 
+
+The **Hospitalized Case Fatality Rate (CFR)** can be calculated as follows:
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total number of hospitalized cases}} \right) \times 100 \]
+
+\[ \text{CFR} = \left( \frac{38}{331} \right) \times 100 \approx 11.48\% \]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** in this study is **11.48%**.", 11.48,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),469,"The Hospitalized Case Fatality Rate (CFR) for measles cases admitted to the Korle Bu Teaching Hospital between January 1970 and December 1972 is reported to be **12.8%**. This percentage reflects the overall mortality for the 1,309 measles cases admitted during this period. 
+
+To summarize:
+- **Total hospitalized measles cases**: 1,309
+- **Total deaths**: 168 (based on the CFR of 12.8%)
+- **CFR**: 12.8% 
+
+This is indicative of the significant mortality risk associated with measles complications in the hospitalized population during that time frame.", 12.8,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1734,"The **Hospitalized Case Fatality Rate (CFR)** for measles in the study is reported as **12.9%**. This rate indicates that out of those hospitalized with measles, 12.9% died from the illness. The text mentions that ""only one of the eight patients who died received measles vaccination,"" which highlights the seriousness of the disease among those who are unvaccinated or inadequately vaccinated.", 12.9,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1053,"The provided document does not contain any specific numerical values or information pertaining to the **Hospitalized Case Fatality Rate (CFR)**. The text primarily discusses various issues related to healthcare, medical practices, and conditions of service for medical professionals, without any references to statistics about hospitalized cases or mortality rates.
+
+To summarize, I was unable to extract a **Hospitalized Case Fatality Rate (CFR)** from the document as it does not include any relevant data on this parameter.", 14.2,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1287,"The Hospitalized Case Fatality Rate (CFR) extracted from the document is as follows:
+
+- Among malnourished children, the CFR is 34% (88 deaths out of 1,275 malnourished children).
+- Among well-nourished children (eutrophiques), the CFR is 19% (130 deaths out of 520 well-nourished children).
+- Specifically, the CFR for malnourished children who consulted late is 20%, compared to 14% for those who consulted early. 
+
+These values illustrate the significantly higher mortality rates in malnourished children, emphasizing the impact of early consultation.", 14.76,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),908,"The Hospitalized Case Fatality Rate (CFR) extracted from the document is **16.5%**. This rate indicates that 58 out of 351 hospitalized cases resulted in death, as stated in the text:
+
+""Dans notre statistique, 58 malades sont décédés, soit 16,5 p. 100, les 3/4 dans les 24 premières heures de leur hospitalisation.""
+
+This means the CFR is calculated as follows:
+
+- **Numerator (Number of Deaths)**: 58
+- **Denominator (Number of Hospitalized Cases)**: 351
+
+Thus, the Hospitalized CFR is expressed as **16.5%**.", 15.95,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2294,"The **Hospitalized Case Fatality Rate (CFR)** from the provided text is as follows:
+
+- Total number of admissions for severe protein-energy malnutrition (PEM): **218**
+- Number of deaths during this period: **55**
+  
+Calculating the CFR:
+
+\[ \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}} \right) \times 100 \]
+
+\[ \text{CFR} = \left( \frac{55}{218} \right) \times 100 \approx 25.3\% \]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **25.3%**.", 17.86,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1280,"The **Hospitalized Case Fatality Rate (CFR)** from the study is 18.31%. This is calculated based on 13 deaths among 71 evaluable hospitalized cases (13/71), expressed as a percentage.", 18.31,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1159,"The **Hospitalized Case Fatality Rate (CFR)** for measles among hospitalized children in the study is 20%. This figure is derived from the data that indicates 80 children died out of a total of 398 cases for which the outcome was determined (with 38 cases where the outcome could not be established). 
+
+Thus, the CFR can be expressed as:
+
+- **Numerator (Number of Deaths):** 80
+- **Denominator (Total Hospitalized Cases):** 398
+- **CFR Calculation:** (80 deaths / 398 hospitalized cases) * 100 = 20% 
+
+So, the **CFR is 20%**.", 20.1,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),395,"The **Hospitalized Case Fatality Rate (CFR)** extracted from the text is as follows:
+
+- **Total number of children admitted:** 11,076  
+- **Total number of deaths:** 2,274  
+- **Hospitalized CFR:** \( \frac{2274}{11076} \times 100 \approx 20.5\% \)
+
+This indicates that approximately **20.5%** of hospitalized children died during the study period (1978 and 1981-1986) at the children's emergency ward of the University College Hospital, Ibadan, Nigeria.", 20.53,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),817,"The Hospitalized Case Fatality Rate (CFR) for the study sample in the provided document is as follows:
+
+- Total number of deaths: **70**
+- Total number of hospitalized cases (children with measles): **269**
+
+The calculation for CFR is:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100
+\]
+
+Substituting in the provided numbers:
+
+\[
+\text{CFR} = \left( \frac{70}{269} \right) \times 100 \approx 26.0\%
+\]
+
+Thus, the **Hospitalized Case Fatality Rate (CFR)** is approximately **26.0%**.", 26.02,Success,TP,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1792,"The **Hospitalized Case Fatality Rate (CFR)** for measles in the national hospital in Niamey, Niger, as reported in the study, is **30.44%**. This percentage indicates that out of the **969 children hospitalized**, **295 died** during their stay due to complications related to their illness.", 30.44,Fail,FN,12
+"**Retrieval Instructions:** 
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which is typically presented as a proportion or percentage of hospitalized patients who die from the illness within a specified time frame. Pay particular attention to values expressed in numerical form, and ensure you include both the numerator (number of deaths) and denominator (number of hospitalized cases) when necessary for clarity. 
+
+**Document Text:** 
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1789,"The **Hospitalized Case Fatality Rate (CFR)** extracted from the document is:
+
+- **CFR:** 29.3% for the 376 children admitted with measles into the Children Emergency Room (CHER) over a 3-year period (1981-1983). 
+
+This indicates that out of 376 hospitalized cases, 29.3% resulted in death.", 33.03,Fail,FN,12
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),75,"**Hospitalized Case Fatality Rate (CFR) Extraction:**
+
+The document provided does not mention specific numerical values for the Hospitalized Case Fatality Rate (CFR) related to measles or any statistics about deaths among hospitalized patients due to measles infection. It primarily discusses associations between measles infection and inflammatory bowel diseases and does not provide data about hospitalized cases or fatalities.
+
+**Conclusion:**
+- **CFR Value:** Not found.
+- **Context:** The paper focused on the biological and epidemiological associations of measles with conditions like Crohn's disease and did not contain any explicit data or statistics regarding CFR for hospitalized measles cases.
+
+If there are any other parameters or specific sections of the paper you'd like to explore, please let me know!", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),88,"The provided text does not contain any specific data or metrics related to the **Hospitalized Case Fatality Rate (CFR)** for measles or any other diseases. There are no mentions of the number of hospitalized cases or the number of deaths among these cases that would be necessary to calculate or report a CFR.
+
+### Summary:
+- **Hospitalized Case Fatality Rate (CFR):** Not found in the document.
+- **Numerical Values:** No values for deaths or hospitalized cases are provided.
+- **Context:** The text focuses on general information about communicable disease surveillance and does not include specific epidemiological data related to measles.
+
+To extract the CFR, the relevant sections of the paper would need to explicitly state the number of hospitalized measles cases and the corresponding deaths among these cases. Thus, based on the provided text, I cannot provide a CFR value or context.", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),98,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:** Not explicitly provided in the text.
+
+**Explanation of Retrieval Process:**
+The document does not contain specific figures regarding the number of deaths among hospitalized measles cases or the total number of hospitalized cases, which are required to calculate the Hospitalized Case Fatality Rate (CFR). The CFR is computed using the formula:
+
+\[ \text{CFR} (\%) = \left( \frac{\text{Number of Deaths among Hospitalized Cases}}{\text{Total Number of Hospitalized Cases}} \right) \times 100 \]
+
+The text discusses a measles outbreak, mentioning linked cases and patients but does not provide any numerical data on hospitalization or outcomes (deaths). 
+
+### Conclusion:
+Since the necessary data to calculate the CFR (number of deaths and number of hospitalized cases) is missing, I cannot extract or compute a CFR value from this document related to measles. To obtain this parameter, further details or a different source may be required.", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),104,"The provided document does not contain any mention of measles or its associated epidemiological parameters, including the Hospitalized Case Fatality Rate (CFR). Instead, the text primarily discusses topics related to the epidemiology of shigellosis and other unrelated health issues.
+
+For an effective extraction of the Hospitalized Case Fatality Rate for measles from a relevant research paper, the text must specifically include data pertaining to the number of deaths resulting from measles among hospitalized patients, as well as the total number of hospitalized cases.
+
+In this instance, I cannot extract any relevant values or provide context as there is no applicable information regarding the CFR for measles in the document provided. If you have another document that discusses measles or its epidemiological parameters, please share it for analysis.", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),213,"The document does not provide a specific value for the Hospitalized Case Fatality Rate (CFR) of measles amongst hospitalized cases. It mentions that ""Hospitalisation rates often exceed 20% in EU Member States"" and discusses the incidence of the outbreak but does not provide explicit numbers of deaths relative to hospitalized cases. 
+
+Since CFR is defined as the percentage of hospitalized patients who die from the illness, I am unable to calculate this parameter without explicit numerical values for both the number of deaths among hospitalized cases and the total number of hospitalized cases.
+
+Overall, the paper emphasizes the outbreak of measles and the importance of vaccination, but it lacks the necessary data points for a CFR calculation specific to the hospitalized cases of measles in the Haut-Rhin region during the outbreak. Therefore, there is no CFR extracted from this document, as the relevant numerical values were not presented.", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),242,"The text provided from the medical research paper does not contain specific numerical data regarding the Hospitalized Case Fatality Rate (CFR) for measles or any relevant details about hospitalized cases and deaths. Instead, the text discusses the general context of measles vaccination progress and outbreaks but does not provide figures necessary to calculate the CFR. 
+
+Therefore, I am unable to extract the Hospitalized CFR from this document as it lacks the requisite data on hospitalizations and deaths.
+
+If you have another document that includes specific details regarding the number of deaths among hospitalized cases and the total number of hospitalized cases, please share that, and I will assist you in extracting the CFR from that text.", NA,Success,TN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),511,"**Extracted Parameter:** Hospitalized Case Fatality Rate (CFR)
+
+- **Value:** 0%
+  
+- **Explanation of Source:** The paper reports that none of the hospitalized patients died as a result of measles or related complications. Specifically, it states, ""None death was reported,"" and in the conclusion, it reiterates, ""Non era registrato alcun decesso"" which translates to, ""No deaths were recorded."" 
+
+Given that the definition of CFR is calculated as:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100
+\]
+
+In this case:
+
+- **Number of deaths (numerator)** = 0
+- **Total number of hospitalized cases (denominator)** = 73
+
+Thus, the calculation yields:
+
+\[
+\text{CFR} = \left( \frac{0}{73} \right) \times 100 = 0\%
+\]
+
+The value of 0% indicates that during this particular measles outbreak, there were no fatalities among the hospitalized patients, underscoring the effectiveness of modern medical care in managing measles cases within the hospital setting.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),554,"**Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)**
+
+- **Value**: 14.29%
+- **Calculation Detail**:
+  - **Number of deaths among hospitalized cases (numerator)**: 1
+  - **Total number of hospitalized cases (denominator)**: 7
+  - The formula used for calculating the CFR is:
+    \[
+    \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100 = \left( \frac{1}{7} \right) \times 100 = 14.29\%
+    \]
+
+### Explanation:
+In the provided text, the research discusses cases of nosocomial measles and specifies that there was one death among the hospitalized cases. The total number of hospitalized cases related to nosocomial infection was reported as seven (8 patients in total with measles nosocomially, but only 1 was specified as a death and the count of hospitalized cases does not directly overlap with all reported cases of nosocomial measles). Therefore, the Hospitalized CFR is calculated using these specific values, giving an appropriate estimation of the fatality rate among hospitalized patients due to this outbreak of measles in healthcare settings.", 0,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),584,"In the provided text, I have extracted the **Hospitalized Case Fatality Rate (CFR)** for measles.
+
+### Extracted Parameter:
+**Hospitalized Case Fatality Rate (CFR)**
+
+#### Values Extracted:
+- Total number of deaths among hospitalized patients: **2 deaths**
+- Total number of hospitalized cases: Not explicitly stated, but can be approximated. The note mentions 604 reported measles cases, but it does not provide a clear indication of the number that were hospitalized. Further context was not available to determine how many of these cases were hospitalized specifically.
+
+#### Computation or Inference:
+- The CFR is typically calculated by the formula:
+  
+  \[
+  CFR = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100
+  \]
+
+However, without the specific number of hospitalized cases mentioned in the document, I am unable to compute an exact percentage. The numbers available indicate that there were 2 deaths but do not clearly indicate how many of the 604 cases were hospitalized.
+
+#### Context:
+The text indicates that ""Deux personnes sont décédées depuis le début d'année"" (Two people have died since the beginning of the year) due to complications from measles, reflecting the serious nature of the disease. While the exact CFR cannot be computed due to lack of data on hospitalized cases, the two deaths are significant data points that illustrate the potential severity of measles outbreaks in an under-vaccinated population.
+
+### Conclusion:
+The direct value for the CFR cannot be provided due to missing data on hospitalized cases. The only definitive values extracted are:
+- **Number of deaths among hospitalized cases: 2**
+
+To fully establish the CFR, further investigation into the specifics of the hospitalized cases would be necessary.", 0,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),585,"**Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)**
+
+- **Value of CFR**: 25.9%
+- **Numerator (Deaths among hospitalized cases)**: 7 deaths
+- **Denominator (Total hospitalized cases)**: 27 hospitalized patients
+
+**Explanation**: The Hospitalized Case Fatality Rate (CFR) was calculated based on the data provided in the results section of the paper. It mentions that out of the 27 patients who were hospitalized, 7 had complications leading to death. To compute the CFR, the following formula was used:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100
+\]
+
+Substituting the values:
+
+\[
+\text{CFR} = \left( \frac{7}{27} \right) \times 100 \approx 25.9\%
+\]
+
+This percentage indicates the fatality rate among those hospitalized due to measles, which reflects how severe the disease can be in more complicated cases. The paper specifically highlights that these patients were hospitalized, and thus, this value is representative of the hospitalized cohort rather than the overall population infected with measles.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1544,"**Extracted Parameter**: Hospitalized Case Fatality Rate (CFR)
+
+1. **Value**: 0%
+   - **Numerator**: 0 deaths among hospitalized cases.
+   - **Denominator**: 314 hospitalized cases.
+
+2. **Explanation**: The text states, ""No deaths were identified in the hospitalisation or notification data."" This is a clear indication that there were no fatalities among the patients who were hospitalized during the measles epidemic described in the paper. Given that there were 314 individuals hospitalized due to measles, with no reported deaths, the Hospitalized CFR can be calculated as follows:
+
+   \[
+   \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}} \right) \times 100 = \left( \frac{0}{314} \right) \times 100 = 0\%
+   \]
+
+   This value is explicitly supported by the results section of the paper where it concludes no deaths were reported, solidifying that the CFR is accurately computed as 0%. 
+
+3. **Context**: This specific data is crucial for understanding the impact of the measles epidemic on hospitalized patients and indicates a successful public health intervention, as no fatalities occurred during this outbreak.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1846,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Computed Value:** 
+- **CFR:** 50% 
+
+**Explanation:**
+1. **Numerator (Number of Deaths):** The text states that there were **two deaths among children hospitalized with complications** during the measles outbreak. One child died of bronchopneumonia and kwashiorkor, and another died from dysentery 30 days after measles diagnosis.
+2. **Denominator (Total Number of Hospitalized Cases):** It mentions that two of the children with bronchopneumonia were hospitalized. Therefore, this is the total number of hospitalized cases for calculating the CFR.
+
+The calculation for the CFR is as follows:
+\[
+\text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}} \right) \times 100 = \left( \frac{2}{2} \right) \times 100 = 100\%
+\]
+
+However, since only **one child who should have been hospitalized died at home due to parental refusal**, it reflects that **one out of the recorded hospitalized deaths was because of complications.** Thus, effectively:
+\[
+\text{CFR} = \left( \frac{1}{2} \right) \times 100 = 50\%
+\]
+
+This value gives a clearer picture of the fatality rate among those who required hospitalization during the epidemic, highlighting the severe impact measles had on the population, particularly in the context of severe malnutrition and inadequate medical intervention.", 0,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3083,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:** 0%
+
+**Explanation:**  
+The document states that ""No measles deaths were reported"" during the year in question. Therefore, the number of deaths among hospitalized cases is 0. The total number of confirmed measles cases reported in 1995 was 174, with only 5 cases requiring hospitalization. 
+
+To calculate the Hospitalized CFR:
+- **Number of deaths among hospitalized cases (numerator):** 0
+- **Total number of hospitalized cases (denominator):** 5
+
+Thus, the computation for the CFR is as follows:
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100 = \left( \frac{0}{5} \right) \times 100 = 0\% \]
+
+The presence of 0 deaths and 5 hospitalized cases clearly indicate that the CFR value of 0% is appropriate, reflecting that all hospitalized patients survived their illness.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3561,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+### Extracted Value:
+- **Hospitalized Case Fatality Rate (CFR): 0%**
+
+### Explanation:
+The paper reports that out of 359 total notified cases of measles in Poland during 2018, **209 (58.2%)** were hospitalized. Importantly, the text explicitly states: ""In 2018, there was no death from measles."" Therefore, the numerator (the number of deaths among hospitalized cases) is **0**, while the denominator (the total number of hospitalized cases) is **209**. 
+
+### Calculation:
+CFR is calculated using the formula:
+\[ \text{CFR} = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100 \]
+
+Substituting the values:
+\[ \text{CFR} = \left( \frac{0}{209} \right) \times 100 = 0\% \]
+
+#### Context:
+This indicates that there were no fatalities among the hospitalized measles cases in Poland for that year, which is a significant positive outcome for the health authorities monitoring the disease. The information was found in the results section of the paper, where they review the epidemiological data for measles, highlighting both hospitalization rates and mortality.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),3562,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:** 0%
+
+**Explanation:**
+The Hospitalized Case Fatality Rate (CFR) is defined as the proportion of hospitalized patients with a specific disease who die from that disease within a defined time frame. In this paper, the total number of measles cases that were hospitalized is stated as 9, and importantly, it is noted that ""No fatal cases due to the measles were reported."" Therefore, the numerator (number of deaths among hospitalized cases) is 0, while the denominator (total number of hospitalized cases) is 9.
+
+The calculation for CFR can be expressed as follows:
+
+\[
+\text{CFR} = \left(\frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}}\right) \times 100
+\]
+
+Plugging in the numbers:
+
+\[
+\text{CFR} = \left(\frac{0}{9}\right) \times 100 = 0\%
+\]
+
+This indicates that 0% of hospitalized cases resulted in death from measles in Poland in 2020, which reflects a positive outcome in terms of patient survival rates during this period.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),7471,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+- **CFR Value**: 0%
+- **Numerator (Deaths among hospitalized cases)**: 0 deaths
+- **Denominator (Total hospitalized cases)**: 23 hospitalized cases
+
+#### Explanation of the Extraction:
+In the results section of the paper, it is stated: ""Of the total cases, 29% were hospitalized, but no deaths occurred."" This means that while there were 79 total cases reported, the number hospitalized can be calculated as follows:
+
+\[
+\text{Total hospitalized cases} = 79 \times 0.29 = 22.91 \approx 23 \text{ (approximating to the nearest whole number)}
+\]
+
+Since the paper explicitly mentions that there were no deaths among these hospitalized cases, the numerator for the CFR calculation is 0.
+
+The CFR is calculated using the formula:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total number of hospitalized cases}} \right) \times 100
+\]
+
+Substituting the values:
+
+\[
+\text{CFR} = \left( \frac{0}{23} \right) \times 100 = 0\%
+\]
+
+Thus, the extracted Hospitalized Case Fatality Rate (CFR) for this measles outbreak is **0%**, indicating that there were no fatalities among the hospitalized patients.", 0,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2146,"The Hospitalized Case Fatality Rate (CFR) for measles was extracted from the provided text. Here's the relevant information:
+
+1. **Number of Deaths Among Hospitalized Cases**: The paper states, ""Deux personnes sont décédées depuis le début d'année"" (Two people have died since the beginning of the year), hinting that these deaths are likely related to hospitalized cases during the measles outbreak.
+
+2. **Total Number of Hospitalized Cases**: The exact number of hospitalized cases during the specified period is not explicitly mentioned in the extracts provided; however, it indicates that there were 604 reported cases of measles. We infer that typically a subset would have been hospitalized, but the specific number is not available in the provided segments.
+
+From the information given:
+- **Deaths**: 2
+- **Total reported cases**: 604 (not directly specified for hospitalized, but serves as context)
+
+### Calculation
+To properly compute the CFR, we require the total number of hospitalized cases. Since this is not explicitly provided, the CFR cannot be calculated accurately with the available data.
+
+### Reporting
+The CFR based on the known deaths among the reported cases would be:
+- **CFR = (Number of Deaths / Total Hospitalized Cases) x 100**
+- Without the specific number for hospitalized cases, we cannot arrive at a percentage, highlighting a limitation in the data.
+
+**Conclusion**: The exact Hospitalized CFR cannot be reported because the number of hospitalized cases is not disclosed in the document. If it had been, we would compute it using the provided deaths (2) and the mentioned hospitalized cases.", 0,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1797,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value of CFR:** 
+- **One death among 1,936 hospitalized patients with measles:** 
+  - CFR = (1 death / 1,936 hospitalized cases) * 100 = **0.05%**
+
+**Source of Values:**
+The value for the number of deaths (1) and the number of hospitalized cases (1,936) is explicitly detailed in the results section. This information is summarized in the result section discussing outcomes, specifically indicating that the only death recorded in the study was that of an unvaccinated patient who had measles pneumonia. 
+
+Thus, the calculation for CFR is straightforward and uses the precise numbers reported in the text, making this the appropriate value to report as the hospitalized case fatality rate specifically for measles within this study.
+
+#### Context Note:
+- This CFR specifically pertains to **hospitalized patients with measles**, as noted, and is crucial for understanding the mortality risk associated with severe cases of measles requiring hospitalization. The report underlines the importance of vaccination given that the deceased patient was unvaccinated.", 0.05,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),640,"**Extracted Parameter:** Hospitalized Case Fatality Rate (CFR)
+
+1. **Value:** 0.23%  
+   - **Calculation:** The paper states, ""there were 2200 admissions to hospital and five deaths."" The CFR is calculated as follows:
+     \[
+     \text{CFR} = \left(\frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}}\right) \times 100
+     \]
+     Substituting the given values:
+     \[
+     \text{CFR} = \left(\frac{5}{2200}\right) \times 100 \approx 0.227\%
+     \]
+   - **Context:** This CFR represents the proportion of hospitalized measles patients who died as a result of the disease in New South Wales in 1981. This percentage provides insight into the severity of outcomes associated with hospitalized cases of measles during this period.
+
+**Summary of Findings:** The hospitalized case fatality rate for measles in the studied population was identified directly from the results section of the paper, based on the reported number of hospital admissions and deaths.", 0.23,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),409,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Definition**: The Hospitalized Case Fatality Rate (CFR) is defined as the percentage of hospitalized patients who die from the illness within a specific time frame. It is calculated using the formula:  
+\[ \text{CFR} = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100 \]
+
+**Extracted Values**:
+- **Total hospitalizations**: 4,000 cases
+- **Total deaths**: 10 cases
+
+**Calculation**:
+\[ \text{CFR} = \left( \frac{10}{4000} \right) \times 100 = 0.25\% \]
+
+**Explanation**:
+The extracted values for deaths and hospitalizations were found in the results section of the paper. Specifically, it states that there were ""près de 4 000 hospitalisations, ... et un total de 10 décès"" (almost 4,000 hospitalizations... and a total of 10 deaths). 
+
+Thus, the Hospitalized CFR for measles in this outbreak period is calculated as 0.25%, which indicates the percentage of hospitalized patients who succumbed to the illness in this specific case. This figure reflects the overall severity of the measles outbreak and possible outcomes for hospitalized individuals.", 0.25,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),347,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+#### Values Extracted:
+- **Total Number of Hospitalized Cases**: 1,279
+- **Number of Deaths among Hospitalized Cases**: 4
+- **CFR Calculation**: 
+
+\[
+\text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}} \right) \times 100 = \left( \frac{4}{1279} \right) \times 100 \approx 0.31\%
+\]
+
+### Explanation:
+The values were found in the results section of the text, where it explicitly states that ""1,279 (24%) ont été hospitalisés"" (1,279 were hospitalized) and that ""Quatre cas sont décédés"" (four cases died). The CFR is calculated using the formula for hospital settings, which is the number of deaths among hospitalized patients divided by the total number of hospitalized cases, multiplied by 100 to express it as a percentage. Here, the CFR calculation was derived from the specified numbers directly reported in the study, ensuring accuracy.
+
+The context specifies that these data apply to measles cases reported in France between October 2011 and September 2018.", 0.31,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),558,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**CFR Value:**
+- **7.8%** (calculated from available data)
+
+**Calculation Details:**
+1. **Total Definitive Deaths from Measles**: 10 deaths (from Table II).
+2. **Total Hospitalized Cases for Measles**: 318 cases (from Table I).
+
+The hospitalized case fatality rate (CFR) can be calculated using the formula: 
+\[ 
+\text{CFR} = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100 
+\]
+Substituting in the values:
+\[ 
+\text{CFR} = \left( \frac{10}{318} \right) \times 100 \approx 3.1\% 
+\]
+
+### Notes on Context:
+- The **CFR** for measles was noted as 6.1% of total deaths (Table II), which aligns with cases hospitalized specifically for measles. This percentage does indicate a separate mortality risk for the hospitalized population where the death rate can be analyzed more specifically for this affliction.
+- This study identifies a significant association between childhood mortality and the disease, showing that **children, particularly those under one year**, represent a high-risk group regarding hospitalization and mortality related to measles. 
+
+The **CFR** calculated is crucial for understanding the lethality of measles among hospitalized patients, emphasizing the importance of enhanced medical attention in pediatric cases, especially in the early stages of the disease.", 3.14,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2209,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+#### Values Found:
+1. **Total number of deaths among hospitalized cases:** 2
+2. **Total number of hospitalized cases:** Not explicitly provided, however, there is a reference to ""les cas notifiés"" (notified cases) which totals **604.** 
+
+#### Calculation:
+To compute the Hospitalized Case Fatality Rate (CFR), the following formula is used:
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}} \right) \times 100
+\]
+
+However, since we do not have the exact number of hospitalized cases, assuming that the death cases are among those reported, we can calculate an approximate CFR from the notified cases, albeit this method does have limitations as it assumes all notified cases were hospitalized cases:
+
+\[
+\text{CFR} ≈ \left( \frac{2}{604} \right) \times 100 ≈ 0.33\%
+\]
+
+### Context of Value:
+- The two deaths reported occurred due to complications from measles: one from acute encephalitis and the other from pneumonia due to pre-existing conditions.
+- The CFR here is inferred from the total reported cases (604) and does not specifically segregate those who were hospitalized vs. those who were not, highlighting a lack of detailed subgroup analysis in the paper.
+
+#### Limitations:
+1. **Assumption on Hospitalization:** This calculation assumes that the deaths are among the noted cases without confirming which of those were specifically hospitalized, potentially leading to an underestimation of CFR if the actual hospitalizations were lower than the total reported cases.
+2. **No clear breakdown of hospitalized vs. non-hospitalized cases** in the text makes it challenging to derive an accurate CFR specifically for hospitalized individuals only. 
+
+### Conclusion:
+The Hospitalized Case Fatality Rate (CFR) for the measles outbreak in France in 2008, inferred from the available data, is approximately **0.33%.** It is important to note the limitations of this inference due to the lack of precise hospitalization data in the provided text.", 3.23,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1154,"### Extraction of Hospitalized Case Fatality Rate (CFR)
+
+**Value Extracted:** 3.8%
+
+**Calculations:**
+- **Total number of hospitalized cases:** 728
+- **Total number of deaths among hospitalized cases:** 28
+
+The CFR is calculated as follows:
+\[ \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Number of Hospitalized Cases}} \right) \times 100 \]
+\[ \text{CFR} = \left( \frac{28}{728} \right) \times 100 \approx 3.84\% \]
+
+### Context of the Value:
+The value of 3.8% was found in the Results section of the paper, where it reported that 28 (3.8%) of the patients died during the measles outbreak. This CFR reflects the mortality among hospitalized children diagnosed with measles at the Children’s Emergency Hospital in Khartoum during the year 1983. The text elaborates that all deaths were associated with complications such as pneumonia and that malnutrition significantly impacted the outcomes, marking the severe risk faced by hospitalized cases of measles within that specific population.
+
+### Summary:
+The Hospitalized CFR for measles among children in the study is approximately **3.8%**, derived from the reported number of deaths (28) out of total hospitalized cases (728). This figure highlights the serious health impacts of measles, particularly in the context of malnutrition as indicated by the discussion in the paper.", 3.85,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),6300,"### Extraction of Hospitalized Case Fatality Rate (CFR)
+
+**Parameter:** Hospitalized Case Fatality Rate (CFR)  
+**Value:** 4.88%  
+**Explanation:**  
+
+In the provided text, we can extract the number of total hospitalized cases and the number of deaths to compute the CFR:
+
+- **Total Hospitalized Cases:** 41 (the total number of children with a discharge diagnosis of measles)
+- **Total Deaths:** 2 (the text states ""There were 2 deaths."")
+
+To compute the CFR, we use the formula:
+\[ \text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Hospitalized Cases}} \right) \times 100 \]
+
+Calculating this:
+\[ 
+\text{CFR} = \left( \frac{2}{41} \right) \times 100 \approx 4.88\% 
+\]
+
+This value of 4.88% represents the percentage of hospitalized children who died from measles within the context of this study. Thus, we have accurately captured the necessary figures from the text, ensuring that the computation is clear and justified based on the explicit numbers provided in the paper.", 4.88,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1754,"**Extracted Parameter:** Hospitalized Case Fatality Rate (CFR)
+
+**Numerical Values:**
+- **Number of Deaths (Numerator):** 37 deaths
+- **Total Number of Hospitalized Cases (Denominator):** 647 hospitalized cases
+- **Calculated CFR:** \((\frac{37}{647}) \times 100 \approx 5.72\%\)
+
+**Context and Explanation:**
+The Hospitalized Case Fatality Rate (CFR) was determined directly from the text, which states that there were 37 deaths recorded among 647 hospitalized cases of measles between 1991 and 1992. This provides a clear basis for calculation as both the number of deaths and the number of hospitalized cases are explicitly mentioned in the summary and results sections of the text. 
+
+To calculate the CFR, the number of deaths (37) was divided by the total number of hospitalized cases (647) and then multiplied by 100 to convert it into a percentage. This value effectively represents the severity of measles in the studied population and highlights the risk of fatality among hospitalized patients. 
+
+In conclusion, the appropriate value for the Hospitalized CFR is approximately **5.72%**, indicating that a little over 5% of the hospitalized patients died from measles during the study period.", 5.72,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),275,"**Extracted Parameter: Hospitalized Case Fatality Rate (CFR)**
+
+- **Value:** 6.3%
+  
+- **Numerator (Deaths among hospitalized cases):** 4 deaths (inferred from 6.3% of 64 hospitalized cases)
+  
+- **Denominator (Total hospitalized cases):** 64 hospitalized cases
+
+### Explanation:
+The Hospitalized Case Fatality Rate (CFR) was explicitly reported in the results section of the paper, where it stated, ""the case fatality rate was 6.3%."" This percentage directly indicates the proportion of hospitalized children with measles who died as a result of the illness.
+
+To compute the numerator (number of deaths), the CFR is applied to the total number of hospitalized cases:
+\[
+\text{Number of deaths} = \left( \frac{CFR}{100} \right) \times \text{Total hospitalized cases} = \left( \frac{6.3}{100} \right) \times 64 = 4.032 \approx 4 \text{ deaths}
+\]
+
+This paper investigated 64 in-patients diagnosed with measles at a hospital and provides the context that 4 children died from the illness, leading to a CFR of 6.3%. Thus, the reported value effectively captures the mortality rate among hospitalized patients in this specific study context.", 6.25,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),664,"### Hospitalized Case Fatality Rate (CFR) Extraction
+
+**Extracted CFR Value:** 7.9%
+
+**Numerator (Number of Deaths):** 141  
+**Denominator (Total Number of Hospitalized Cases):** 1778  
+
+**Context and Explanation:**
+The data pertinent to the hospitalized case fatality rate is found in the ""Results"" section of the paper. It states that there were a total of 1778 children admitted with confirmed measles infections over the study period from January 1985 to December 1993. Among these admitted children, there were 141 deaths associated with measles.
+
+The case fatality rate (CFR) was explicitly stated as follows: ""The hospital case mortality rate for the study period was 7.9%."" This clearly indicates that the value provided is the proportion of deaths among hospitalized measles cases, confirming that the computed CFR aligns with the stated figure in the results.
+
+In summary, the calculation for the CFR is done as follows: 
+
+\[ \text{CFR} = \left(\frac{\text{Number of Deaths}}{\text{Total Number of Hospitalized Cases}}\right) \times 100 \]
+\[ \text{CFR} = \left(\frac{141}{1778}\right) \times 100 = 7.9\% \]
+
+This indicates that among hospitalized cases of measles during this period in Southern Ghana, 7.9% of the children admitted died from the disease.", 7.93,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1910,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+**Value:** 8.64% 
+
+**Calculation and Explanation:**
+The Hospitalized Case Fatality Rate (CFR) is calculated by taking the number of deaths among hospitalized patients with measles and dividing it by the total number of hospitalized cases, then multiplying by 100 to express it as a percentage.
+
+From the text, it is reported:
+- Total number of hospitalized cases with complicated measles: **220**
+- Total number of deaths among these hospitalized cases: **19**
+
+To compute the CFR:
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100
+\]
+\[
+\text{CFR} = \left( \frac{19}{220} \right) \times 100 = 8.636\% \approx 8.64\%
+\]
+
+This CFR value is specifically referenced in the results section of the paper, where it is noted as the ""taux de décès hospitalier des enfants atteints de rougeole compliquée était de 8,64%,"" confirming that I have accurately extracted and calculated this value based on the provided data on deaths and hospitalizations. 
+
+This value is crucial for understanding the severity and mortality associated with complicated measles in the hospitalized population in Madagascar during the study period.", 8.64,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),531,"**Extracted Parameter:** Hospitalized Case Fatality Rate (CFR)
+
+**Value:** 7.69%
+
+**Explanation:** The study reports that out of 65 hospitalized children with measles, 6 children died. The Hospitalized Case Fatality Rate (CFR) was explicitly stated as 7.69%, which is derived from the formula for CFR: 
+
+\[ \text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total number of hospitalized cases}} \right) \times 100 \]
+
+Substituting the values:
+
+\[ \text{CFR} = \left( \frac{6}{65} \right) \times 100 \approx 9.23\% \]
+
+However, the paper mentions a ""taux de létalité"" or lethality rate of 7.69% as a separate statement. Therefore, while the computed rate would suggest about 9.23%, the paper’s specific mention of 7.69% is more authoritative for the context of this research.
+
+Additionally, it’s important to note that all the children who died were unvaccinated, and the deaths primarily occurred between the fifth and tenth day of hospitalization, indicating the severity of the complications associated with measles during the study period.", 9.23,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1061,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:**
+- **CFR:** 10% (for hospitalized patients)
+
+**Numerator and Denominator:**
+- **Numerator (Number of Deaths among Hospitalized Cases):** 4 deaths
+- **Denominator (Total Number of Hospitalized Cases):** 40 cases
+
+**Context and Explanation:**
+In the results section of the paper, it is stated that ""Forty were admitted and four dealt with in the observation ward,"" indicating that out of 40 hospitalized children, 4 died. Thus, the formula for CFR is applied as follows:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of Deaths}}{\text{Total Number of Hospitalized Cases}} \right) \times 100
+\]
+\[
+\text{CFR} = \left( \frac{4}{40} \right) \times 100 = 10\%
+\]
+
+This value is specifically referenced in the discussion where it highlights that the mortality rate among those admitted for complications of measles is 10%. This figure is relevant as it represents those who were hospitalized, thereby giving a focused case fatality rate for a more severe segment of the population affected by measles.", 10,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),365,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Extracted Value: 10.8%**
+
+**Details:**
+- The study reports a total of **784 cases** of measles with various complications admitted to the Institute of Child Health in Kabul, Afghanistan.
+- The number of deaths among these hospitalized cases was recorded as **85**.
+  
+**Calculation:**
+- The Hospitalized Case Fatality Rate (CFR) is calculated using the formula:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100
+\]
+
+Substituting the values:
+\[
+\text{CFR} = \left( \frac{85}{784} \right) \times 100 \approx 10.8\%
+\]
+
+### Explanation of Source:
+The value of the hospitalized CFR was explicitly stated in the results section of the paper where it summarizes findings related to complications and outcomes of measles in hospitalized patients. The total number of cases and deaths were clearly specified, allowing for a straightforward computation of the CFR. This makes the derived figure of **10.8%** both accurate and an appropriate representation of the case fatality among hospitalized patients with measles in the studied population.", 10.84,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1641,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value: 11.48%**
+
+#### Explanation:
+The Hospitalized Case Fatality Rate (CFR) was explicitly mentioned in the results section of the paper, where it states: ""A total of 293 patients improved and were sent home, while thirty eight patients (11.48%) died on the ward."" To derive this number for the CFR calculation, we can identify the following values:
+- **Numerator (Deaths among hospitalized cases):** 38 deaths
+- **Denominator (Total hospitalized cases):** 331 patients
+
+Now, the CFR can be computed as follows:
+\[ \text{CFR} = \left(\frac{\text{Number of deaths}}{\text{Total hospitalized cases}}\right) \times 100 \]
+\[ \text{CFR} = \left(\frac{38}{331}\right) \times 100 \approx 11.48\% \]
+
+This percentage exactly matches the reported mortality rate for the cohort studied (hospitalized measles patients), affirming that the 11.48% is indeed the appropriate and accurate value for the Hospitalized CFR in this context. 
+
+Additionally, the paper mentions nuances in mortality associated with different age groups. For instance, the mortality was higher in younger patients, with specific percentages noted for groups 1 and 2 (10.44% and 16.12% respectively). However, those age-specific mortality rates do not replace the overall hospitalized CFR but provide insight into the risk stratification within subpopulations.", 11.48,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),469,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:** 12.8%
+
+#### Explanation of the Context:
+The Hospitalized Case Fatality Rate (CFR) is reported in the section under ""Clinical Picture,"" where it states, “The overall percentage mortality for the 1,309 measles cases admitted was 12.8%.” This percentage represents the proportion of hospitalized patients who died from measles based on the data collected at Korle Bu Teaching Hospital from January 1970 to December 1972.
+
+#### Calculation Details:
+The value is derived from the following context provided in the paper:
+- Total number of hospitalized measles cases: **1,309**
+- Total number of deaths among these cases: Based on further analysis, it implies a mortality percentage rather than explicit deaths count noted.
+  
+Thus, the overall CFR of 12.8% indicates that out of the hospitalized cases of measles, approximately 12.8% resulted in death, confirming its appropriate representation as the Hospitalized CFR for the duration analyzed.", 12.8,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1734,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value Extracted:** 12.9%
+
+**Source and Context:**
+The Hospitalized Case Fatality Rate (CFR) for measles in the studied population is reported explicitly in the results section of the paper, where it states, ""Case fatality rate is 12.9%."" The CFR is calculated in this context as the percentage of deaths among hospitalized patients who had measles. While the paper does not provide the exact number of deaths or hospitalized cases leading to this CFR in the quoted statement, it can be inferred from the context that the study closely examined patients admitted with measles.
+
+Given that the total number of patients who were admitted with measles during the study is 62, this CFR suggests that a portion of these cases resulted in mortality, although the paper explicitly mentions that out of 8 children who died from measles complications, most had bronchopneumonia (the prevalent cause of death). 
+
+To confirm the CFR calculation:
+- **Total hospitalized cases (measles): 62**
+- **Total deaths among these cases: 8 (as inferred from the table regarding causes of death)**
+
+Calculating the CFR: 
+\[
+CFR = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100 = \left( \frac{8}{62} \right) \times 100 \approx 12.9\%
+\]
+
+Thus, the value of 12.9% for the CFR is accurate and confirms the claim made in the paper. It addresses the significant risk of mortality associated with measles in this hospitalization context, highlighting the health challenge in this population.", 12.9,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1053,"The provided document appears to be a collection of letters to the editor published in the South African Medical Journal (SAMJ) discussing various medical topics rather than a full-text research paper reporting specific epidemiological data. As a result, there is no information or data pertaining to **Hospitalized Case Fatality Rate (CFR)** for measles or any other disease in the text.
+
+There are no definitions, values, or relevant statistics that correspond to the epidemiological parameter of interest, specifically regarding hospitalized cases and associated fatalities. For this task, I will note that the Hospitalized CFR cannot be extracted due to the absence of relevant data in the provided document.
+
+If you have another document or additional sections to review, please provide them for further analysis.", 14.2,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1287,"### Hospitalized Case Fatality Rate (CFR) Extraction
+
+From the provided text, I extracted the necessary parameters to calculate the Hospitalized Case Fatality Rate (CFR) related to measles.
+
+#### Values Found:
+1. **Malnourished Children:**
+   - **Total number of deaths:** 88 (from the early consultation group)
+   - **Total number of hospitalized cases:** 1,275 (total malnourished children)
+   - **CFR Calculation:** 
+     \[
+     CFR = \left(\frac{88}{1275}\right) \times 100 \approx 6.9\% 
+     \]
+
+2. **Eutrophic Children:**
+   - **Total number of deaths:** 130 (from the early consultation group)
+   - **Total number of hospitalized cases:** 520 (total eutrophic children)
+   - **CFR Calculation:** 
+     \[
+     CFR = \left(\frac{130}{520}\right) \times 100 \approx 25.0\% 
+     \]
+
+3. **Contextual Subgroups:**
+   - For malnourished children consulting **early:** 14 deaths out of 620 children.
+   - For malnourished children consulting **late:** 20 deaths out of 655 children.
+     - **CFR for early consultation (malnourished):**
+     \[
+     CFR = \left(\frac{14}{620}\right) \times 100 \approx 2.3\% 
+     \]
+     - **CFR for late consultation (malnourished):**
+     \[
+     CFR = \left(\frac{20}{655}\right) \times 100 \approx 3.1\% 
+     \]
+
+   - For eutrophic children consulting **early:** 30 deaths out of 344 children.
+   - For eutrophic children consulting **late:** 17 deaths out of 176 children.
+     - **CFR for early consultation (eutrophic):**
+     \[
+     CFR = \left(\frac{30}{344}\right) \times 100 \approx 8.7\% 
+     \]
+     - **CFR for late consultation (eutrophic):**
+     \[
+     CFR = \left(\frac{17}{176}\right) \times 100 \approx 9.7\% 
+     \]
+
+### Summary of CFR Values
+
+- **Overall CFR (malnourished):** 6.9% (88 deaths out of 1,275 cases).
+- **Overall CFR (eutrophic):** 25.0% (130 deaths out of 520 cases).
+- **CFR for malnourished (early consultation):** 2.3% (14 deaths out of 620 cases).
+- **CFR for malnourished (late consultation):** 3.1% (20 deaths out of 655 cases).
+- **CFR for eutrophic (early consultation):** 8.7% (30 deaths out of 344 cases).
+- **CFR for eutrophic (late consultation):** 9.7% (17 deaths out of 176 cases).
+
+### Conclusion
+The information regarding the CFR was directly taken from the results presented in the text. The mortality rates were assessed based on the nutritional status and timing of consultation for measles, clearly indicating the significant differences in fatality rates between malnourished and eutrophic children, emphasizing the importance of early medical intervention.", 14.76,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),908,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Extracted Value:** **16.5%**
+
+**Explanation of Extraction:**
+The Hospitalized Case Fatality Rate (CFR) was explicitly mentioned in the text. It states that during the study, there were **58 deaths among 351 hospitalized cases** of measles. The calculation for the CFR is derived directly from these figures as follows:
+
+- **Numerator (number of deaths)**: 58
+- **Denominator (total number of hospitalized cases)**: 351
+
+The calculation for the CFR is:
+\[ \text{CFR} = \left(\frac{\text{Number of deaths}}{\text{Total hospitalized cases}}\right) \times 100 = \left(\frac{58}{351}\right) \times 100 \approx 16.5\% \]
+
+This value reflects the high fatality associated with measles in a rural hospital setting in Upper Volta, particularly highlighting the severity of the disease in young children, who are the most affected demographic group. 
+
+In conclusion, the extracted Hospitalized CFR of 16.5% was clearly stated in the conclusion section of the text, reinforcing the severe impact of the disease in this population.", 15.95,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),2294,"**Extracted Parameter: Hospitalized Case Fatality Rate (CFR)**
+
+- **Value:** 25%
+
+### Explanation of Extraction:
+From the provided text, I found the necessary numerical values in the results section of the study. Specifically, the authors stated that ""55 (25%) of 218 admissions for severe PEM died during 1981 and 1982."" 
+
+#### Calculation:
+- **Deaths among hospitalized cases:** 55
+- **Total hospitalized cases:** 218
+- **CFR Calculation:** (Number of Deaths / Total Hospitalized Cases) x 100 = (55 / 218) x 100 = 25%
+
+This value of 25% was explicitly reported in the abstract and thus is confirmed as the appropriate value representing the Hospitalized Case Fatality Rate for children with severe protein-energy malnutrition (PEM) admitted to the hospital in Lesotho during the study period. 
+
+### Context:
+This CFR is reflective of the inpatient mortality for severe PEM, indicating a significant risk of death even among hospitalized children, which emphasizes the need for intensive management and further research into care improvements.", 17.86,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1280,"### Extracted Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value**: 18.31%
+
+**Explanation**:
+The Hospitalized Case Fatality Rate (CFR) for children with complications of measles in this study is reported as 18.31%. This figure was derived from the total number of confirmed cases of measles with complications who were evaluated in the hospital (71 children), of which 13 children died. The calculation is as follows:
+
+\[
+\text{CFR} = \left(\frac{\text{Number of deaths among hospitalized cases}}{\text{Total number of hospitalized cases}}\right) \times 100
+\]
+
+Applying the numbers from the study:
+
+- **Deaths**: 13
+- **Total hospitalized cases**: 71 (after excluding 13 who left against medical advice)
+
+Calculating the CFR:
+
+\[
+\text{CFR} = \left(\frac{13}{71}\right) \times 100 \approx 18.31\%
+\]
+
+This value is appropriate as it directly reflects the proportion of deaths among hospitalized children diagnosed with measles and its complications, and it was clearly articulated in the results section of the paper.
+
+### Context for the Value:
+The paper explicitly mentions the CFR figure along with the total number of cases analyzed, providing a clear context for the calculation. It indicates that the CFR of 18.31% represents the mortality rate of hospitalized children suffering from complications of measles in this specific cohort during the specified time frame of the study (January to August 1998). The high CFR underscores the severity of measles and its associated complications, particularly pneumonia, which was noted as being present in all deceased cases.", 18.31,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1159,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value:** 20% 
+
+**Calculation:**
+The Hospitalized Case Fatality Rate (CFR) was found to be calculated from the results section of the paper, where it states: ""80 (20%) died from various associated causes… of the remaining 398 cases."" This indicates that out of the total hospitalized cases of measles (398 patients), 80 patients died. The CFR is computed as follows:
+
+\[
+\text{CFR} = \left(\frac{\text{Number of deaths}}{\text{Total number of hospitalized cases}}\right) \times 100 = \left(\frac{80}{398}\right) \times 100 \approx 20\%
+\]
+
+**Context:**
+This CFR value represents the outcome of measles in hospitalized patients during the study period from January 1984 to December 1987 in the University of Calabar Teaching Hospital, Nigeria. The paper discusses various factors contributing to mortality, primarily emphasizing issues like respiratory complications, malnutrition, and dehydration, which were significant factors leading to deaths among hospitalized patients. The noted increase in CFR from previous periods (2.8% during Pre-EPI years) highlights the severity of the measles outbreak during the Expanded Programme on Immunization (EPI) years.", 20.1,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),395,"**Parameter Extracted:** Hospitalized Case Fatality Rate (CFR) for Measles
+
+**Values:**
+- **Total Number of Measles Cases**: 1078
+- **Deaths Due to Measles**: 352 (calculated from total deaths reported and the percentage attributed to measles)
+
+**CFR Calculation:**
+CFR = (Number of deaths from measles / Total cases of measles) × 100  
+CFR = (352 / 1078) × 100 = 32.6%
+
+**Explanation:**
+The Hospitalized Case Fatality Rate for measles was explicitly stated in the results section of the paper. The research indicated that measles had a case fatality rate of 32.6%, which aligns with the context of the study that focused on childhood illnesses in the children's emergency ward. The discussion around measles indicated it had one of the highest fatality rates compared to other diseases in the dataset.
+
+Additionally, while deaths due to other diseases were mentioned, the extraction reinforced that the CFR specifically for measles remains at 32.6%, derived directly from documented statistics in the study's findings. No additional subgroups were specified that would adjust this CFR for different demographics within hospitalized cases, hence it stands as a singular value.", 20.53,Fail,FN,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),817,"### Extracted Epidemiological Parameter: Hospitalized Case Fatality Rate (CFR)
+
+**Value**: 26.0%
+
+**Numerator (Deaths among hospitalized cases)**: 70 deaths  
+**Denominator (Total number of hospitalized cases)**: 269 hospitalized cases
+
+#### Explanation:
+The Hospitalized Case Fatality Rate (CFR) is explicitly reported in the text under the section ""Mortality,"" which states, ""There were 70 deaths, giving a case mortality of 26.0%."" This directly indicates that out of the 269 hospitalized cases of measles studied over the three-year period, 70 resulted in death, leading to a CFR calculation as follows:
+
+\[
+\text{CFR} = \left(\frac{\text{Number of deaths}}{\text{Total hospitalized cases}}\right) \times 100 = \left(\frac{70}{269}\right) \times 100 = 26.0\%
+\]
+
+This figure is appropriate as it is derived from the total and confirmed deaths recorded in the study specifically for the measles cases admitted to the hospital. There are no reported variations of CFR in different subgroups within the data, allowing us to confidently present a single value for the hospitalized cases.", 26.02,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1792,"### Extracted Epidemiological Parameter
+
+**Parameter:** Hospitalized Case Fatality Rate (CFR)
+
+**CFR Value:** 30.44%
+
+**Numerator (Deaths among hospitalized cases):** 295 deaths  
+**Denominator (Total hospitalized cases):** 969 total cases  
+
+**Explanation:**  
+In the provided text, the section titled ""RESULTATS ET COMMENTAIRES"" includes a statement that during the year 1982, there were **969 children** hospitalized for measles, out of which **295 children died** during their hospital stay. The CFR is calculated as follows:
+
+\[
+\text{CFR} = \left( \frac{\text{Number of deaths}}{\text{Total hospitalized cases}} \right) \times 100 = \left( \frac{295}{969} \right) \times 100 \approx 30.44\%
+\]
+
+This value represents the proportion of hospitalized patients (children in this case) who died from measles during their stay at the hospital, highlighting the severity of the disease in a tropical setting like Niger. The findings leverage mortality statistics from a specific population segment, indicating a significant health concern necessitating further investigation and action regarding measles healthcare practices in that region.", 30.44,Success,TP,13
+"Prompt: **Retrieval Instructions:**  
+You are tasked with extracting a specific epidemiological parameter from the provided medical research paper. Your goal is to find the **Hospitalized Case Fatality Rate (CFR)**, which refers to the percentage of hospitalized patients who die from the illness within a defined time frame. This is calculated by taking the number of deaths among hospitalized cases and dividing it by the total number of hospitalized cases, then multiplying by 100 to get a percentage. Please ensure that the numerical values of both the numerator (number of deaths) and denominator (total number of hospitalized cases) are explicitly noted and used in your calculation when mentioned in the text. Pay particular attention to explicit statements of CFR, as well as the values for deaths and hospitalized cases.
+
+**Document Text:**  
+[Insert the text of the medical research paper here]
+
+Please extract the **Hospitalized Case Fatality Rate (CFR)** from the text above, ensuring the accuracy of the numerical value and its expression as a percentage, if applicable.",gpt-4o-mini,Hospitalized Case Fatality Rate (CFR),1789,"**Extracted Parameter: Hospitalized Case Fatality Rate (CFR)**
+
+### Values:
+1. **29.3%** (Average CFR from 1981-1983)
+   - **Context**: This value refers to the case fatality rate reported for children admitted with measles into the Children's Emergency Room (CHER) at the University College Hospital, Ibadan, over a 3-year period (1981-1983). This rate indicates the proportion of hospitalized cases of measles that resulted in death during that time frame.
+
+2. **32.1%** (1981)
+   - **Context**: The report provides the CFR specifically for the year 1981, indicating that approximately one-third of the hospitalized children with measles died within that year.
+
+3. **40.8%** (1982)
+   - **Context**: This value indicates an increase in the CFR for the year 1982, reflecting potentially worsening conditions or changes in treatment efficacy during that period.
+
+4. **34%** (Average, further discussed in the paper)
+   - **Context**: The paper mentions that the average case fatality rate over the study period was 34%, which includes all admissions from 1981-1983, capturing the overall mortality risk for those hospitalized with measles.
+
+### Calculation Explanation:
+- The CFR values given are reported directly in the text. They represent the percentage of deaths among hospitalized cases, calculated as follows:
+  - CFR = (Number of Deaths among Hospitalized Cases / Total Number of Hospitalized Cases) × 100
+- The 29.3% value is specifically cited in the summary under Table II, while the yearly rates (32.1% for 1981 and 40.8% for 1982) are also directly provided in Table II, making them reliable reported figures. The average 34% provides a summary perspective on mortality over the entire study period, aligning with the earlier data.
+
+### Summary:
+The Hospitalized Case Fatality Rate (CFR) for measles in this study varied significantly over the years analyzed, emphasizing a serious public health concern regarding measles mortality among hospitalized children at the University College Hospital, Ibadan. The highest CFR observed was 40.8% in 1982, which reflects critical trends in patient outcomes over the three-year analysis period.", 33.03,Success,TP,13
