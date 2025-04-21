@@ -47,11 +47,13 @@ The following preparations are required for the functionality of the main tools.
     ```bash
     pip install -r requirements.txt
     ```
-2. **API credentials:** Keys and endpoints for Azure Document Intelligence and OpenAI should be set as environment variables. Alternatively, these may be stored in a `.env` file. An example template:
+2. **API credentials:** Keys and endpoints for Azure Document Intelligence and OpenAI deployments should be set as environment variables. Alternatively, these may be stored in a `.env` file. An example template:
 
     ```python
     OPENAI_KEY = "key"
     OPENAI_ENDPOINT = "endpoint"
+    OPENAI_EMBEDDING_ENDPOINT = "endpoint"
+    OPENAI_EMBEDDING_VERSION = "date"
     OPENAI_VERSION = "date"
     DOCINT_KEY = "key"
     DOCINT_ENDPOINT = "endpoint"

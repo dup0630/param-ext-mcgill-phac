@@ -9,8 +9,8 @@ backed by OpenAI's Azure-hosted embedding models. Each collection stores documen
 
 Environment Variables Required:
 - OPENAI_KEY: API key for Azure OpenAI
-- OPENAI_ENDPOINT: Endpoint URL
-- OPENAI_VERSION: API version (e.g., "2023-05-15")
+- OPENAI_EMBEDDING_ENDPOINT: Endpoint URL
+- OPENAI_EMBEDDING_VERSION: API version (e.g., "2023-05-15")
 
 Dependencies:
 - chromadb
@@ -34,15 +34,20 @@ class ChromaRetriever:
         # Initialize OpenAI embedding function
         load_dotenv()
         key = os.getenv("OPENAI_KEY")
-        endpoint = os.getenv("OPENAI_ENDPOINT")
-        version = os.getenv("OPENAI_VERSION")
+        endpoint = os.getenv("OPENAI_EMBEDDING_ENDPOINT")
+        version = os.getenv("OPENAI_EMBEDDING_VERSION")
         openai_ef = embedding_functions.OpenAIEmbeddingFunction(
             api_key = key,
             api_base = endpoint,
             api_type = "azure",
             api_version = version,
-            model_name = self.emb_model
+            deployment_id = self.emb_model
         )
+
+        try:
+            self.client.delete_collection(name=self.db_name)
+        except:
+            pass
 
         self.collection = self.client.create_collection(
             name = self.db_name, 
@@ -65,12 +70,10 @@ class ChromaRetriever:
             section_ids = [f"paper{paper_id}section{i}" for i in range(n)]
         else:
             section_ids = [f"paper{paper_id}section{i}" for i in section_ids]
-
-        self.collection.add(documents = sections,
-                            metadatas = paper_ids,
-                            ids = section_ids)        
+        
+        self.collection.add(documents=sections, metadatas=paper_ids, ids=section_ids)
     
-    def retrieve_from_paper(self, query: list[str], paper_id, n_results: int = 10) -> list[str]:
+    def retrieve_from_paper(self, query: list[str], paper_id: str, n_results: int = 10) -> list[str]:
         results = self.collection.query(
             query_texts = query,
             n_results = n_results,

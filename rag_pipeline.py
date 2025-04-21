@@ -52,10 +52,10 @@ def main(folder_path: str, output_path: str = "output.csv", rag_n: int = 5, get_
             text_extractor.extract_text(file_path)
             sections = text_extractor.section_chunks()
             for i in list(range(len(sections))):
-                retriever.add_paper_data(sections=[sections[i]], paper_id=filename, section_ids=[i])
                 if verbose:
                     tokens = len(tokenizer.encode(",".join(sections[i])))
                     print(f"Embedding {filename}, section {i}: {tokens} tokens.")
+                retriever.add_paper_data(sections=[sections[i]], paper_id=filename, section_ids=[i])
             n+=1
             if verbose:
                 print(f"File {n} ({filename}) embedded.")
