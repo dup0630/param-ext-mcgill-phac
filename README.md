@@ -47,6 +47,7 @@ The following preparations are required for the functionality of the main tools.
     ```bash
     pip install -r requirements.txt
     ```
+    **Note:** This project requires chromadb==0.6.3 Newer versions (e.g. 1.x.x) introduce breaking changes that are not yet supported by this pipeline. Updating to ChromaDB 1.x is a possible next step.
 2. **API credentials:** Keys and endpoints for Azure Document Intelligence and OpenAI deployments should be set as environment variables. Alternatively, these may be stored in a `.env` file. An example template:
 
     ```python

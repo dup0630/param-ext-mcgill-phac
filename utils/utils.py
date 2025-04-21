@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import pandas as pd
 
 def load_config(file_path: str) -> dict:
     """Load a JSON file and return its contents as a dictionary."""
@@ -29,3 +30,10 @@ def extract_numeric(paper_filename: str):
     """
     match = re.search(r'\d+', paper_filename)
     return int(match.group()) if match else float('inf')
+
+def extract_first_number(entry):
+    if pd.isnull(entry):
+        return None
+    # Find all numbers (integers or decimals)
+    numbers = re.findall(r'\d+(?:\.\d+)?', str(entry))
+    return float(numbers[0]) if numbers else None

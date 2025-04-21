@@ -41,7 +41,7 @@ class ChromaRetriever:
             api_base = endpoint,
             api_type = "azure",
             api_version = version,
-            deployment_id = self.emb_model
+            model_name = self.emb_model
         )
 
         try:

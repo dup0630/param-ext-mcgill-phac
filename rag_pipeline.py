@@ -20,7 +20,7 @@ Dependencies:
 """
 
 import argparse
-from utils.utils import load_config, cleanup_dir
+from utils.utils import load_config
 from LLM_interaction.rag import ChromaRetriever
 from LLM_interaction.gpt_client import ask_GPT
 from text_extractor.docint import TextExtractor
@@ -29,7 +29,7 @@ import json
 import pandas as pd
 import tiktoken
 
-def main(folder_path: str, output_path: str = "output.csv", rag_n: int = 5, get_explanations: bool = False, verbose: bool = False) -> None:
+def main(folder_path: str, output_dir: str = "rag_output", rag_n: int = 5, get_explanations: bool = False, verbose: bool = False) -> None:
     """
     Processes all PDF files in a folder, creates vector database for RAG, extracts specified parameters using GPT, 
     and saves the results to a CSV file.
@@ -102,23 +102,24 @@ def main(folder_path: str, output_path: str = "output.csv", rag_n: int = 5, get_
         print(f"{n} files processed.")
 
     if get_explanations:
-        explanations_path = os.path.join(output_path, "explanations.txt")
-        with open(explanations_path, "w") as file:
+        explanations_path = os.path.join(output_dir, "explanations.txt")
+        with open(explanations_path, "w", encoding="utf-8") as file:
             for exp in explanations:
                 file.write(f"{exp}\n\n")
 
     df =  pd.DataFrame(data)
     df["Paper"] = titles
+    output_path = os.path.join(output_dir, "rag_results.csv")
     df.to_csv(output_path, index=False)
 
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description="Run the RAG pipeline on a folder of PDFs.")
     parser.add_argument("--folder", required=True, help="Path to the folder containing PDF files.")
-    parser.add_argument("--output", default="output.csv", help="Path to save the output CSV file.")
+    parser.add_argument("--output_dir", default="output.csv", help="Path to save the output CSV file.")
     parser.add_argument("--rag_n", type=int, default=5, help="Number of sections to retrieve per parameter.")
     parser.add_argument("--explanations", action="store_true", help="Enable storage of explanations.")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose output.")
     args = parser.parse_args()
 
-    main(folder_path=args.folder, output_path=args.output, rag_n=args.rag_n, get_explanations=args.explanations , verbose=args.verbose)
+    main(folder_path=args.folder, output_dir=args.output_dir, rag_n=args.rag_n, get_explanations=args.explanations , verbose=args.verbose)
