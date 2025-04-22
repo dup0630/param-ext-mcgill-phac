@@ -254,17 +254,19 @@ python rag_pipeline.py --folder ./pdfs --output rag_results.csv --rag_n 7 --expl
 ---
 ### Formatting and Evaluation
 
-#### `extractForAll.py`
+#### `cfr_finetuned_extractor.py`
 
 This script implements a CFR-specific extraction workflow. It performs a two-step GPT-based extraction for hospitalized Case Fatality Rate (CFR) in measles-related studies:
 
 - Raw Extraction: Captures unstructured LLM output using a detailed domain-specific prompt.
 - Standardized Output: Parses the same paper into structured fields (e.g., sample size, age range, numerator, denominator).
-- Excel Output: Results are saved in an Excel file with two sheets (raw response and standard format), along with an optional calculated CFR field.
+- Excel Output (`cfr_finetuned_result.xlsx`): Results are saved in an Excel file with two sheets (raw response and standard format), along with an optional calculated CFR field.
 
 The script can be run in two modes:
 - sampled: Uses a reference CSV with true CFR values for selected papers.
 - all: Runs on all available papers in the cfr_validation/paper_texts directory.
+
+For the sampled mode, use the testing script `cfr_finetuned_test.py`, with testing results and validation outcomes (True/False labels) recorded in `cfr_finetuned_testResult.xlsx`.
 
 **Usage:**
 
