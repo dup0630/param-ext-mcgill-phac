@@ -20,7 +20,7 @@ This project contains three main high-level tools, described below
 
 ### Automated Prompt Generation and Refinement
 
-We include a module to iteratively improve prompts and evaluate their effectiveness using LLM feedback and performance metrics. The algorithm starts by sending base prompt to ChatGPT and asking it for improvement suggestions. The result is then tested for extraction and its performance is evaluated. This process can be iterated multiple times, and performance metrics can be tracked across iterations.
+We include a module to iteratively improve prompts and evaluate their effectiveness using LLM feedback and performance metrics. The algorithm starts by sending previously tested prompts to ChatGPT along with their Success/Fail status and asking it for improvement suggestions. The result is then tested for extraction and its performance is evaluated. This process can be iterated multiple times, and performance metrics can be tracked across iterations.
 
 ### Two-stage and RAG Approach for Extraction
 
